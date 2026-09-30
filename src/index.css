@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=VT323&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --background: #0e100f;
+  --primary: #fffce1;
+  --secondary: #fec5fb;
+  --muted: #f1f5f9;
+}
+
+@theme {
+  --font-primary: "Playfair Display", sans-serif;
+  --font-secondary: "VT323", serif;
+
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+a.active hr {
+    display: block;
+}
