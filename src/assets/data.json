@@ -1,0 +1,987 @@
+[
+    { 
+        "id": "1",
+        "country": "Japan",
+        "destinations": {
+            "thumbnailImage": "/images/japan-days/day-1/train.jpeg",
+            "facts": {
+                "language": "Japanese; 'Thank you' is 'arigatou gozaimasu'",
+                "religion": "Buddhism & Shinto",
+                "currency": "Japanese Yen (JPY)",
+                "capital": "Tokyo",
+                "budget": "A hot & delicious ramen bowl costs around 800 JPY ~ 140K VND",
+                "visa": "90 day visa free access for many countries (Vietnam excluded)",
+                "transport": "Complex train system, taxi, real-time buses, walking",
+                "climate": "Snowy around Jan-Feb, blossom around Apr",
+                "safety":
+                "one of the safest countries in the world, with an extremely low violent crime rate",
+                "flight": "Tokyo (code: NRT or HND), Osaka (code: KIX), Kyoto (no airport)"
+            },
+            "ourTripDetails": {
+                "day1": "arrive at NRT",
+                "day2": "eating"
+            }
+        },
+        "places": "Tokyo - Nagano - Kanazawa - Takayama - Shirakawago - Kyoto - Osaka", 
+        "image": "/images/japan-days/day-1/welcome.jpeg",
+        "flag": "./images/flags/japan.svg",
+        "stars": 5,
+        "date": "23.01.2025 - 02.02.2025",
+        "short_description": "Embark on a journey to the Land of the Rising Sun, where ancient traditions seamlessly blend with futuristic innovation. From the serene temples and meticulously manicured gardens of Kyoto to the dazzling neon lights and bustling Shibuya crossing in Tokyo, Japan offers a captivating contrast.",
+        "title": "Snow-Kissed Serenity: Unveiling Japan's Winter Wonders",
+        "long_description": "Embark on a journey to the Land of the Rising Sun, where ancient traditions seamlessly blend with futuristic innovation. From the serene temples and meticulously manicured gardens of Kyoto to the dazzling neon lights and bustling Shibuya crossing in Tokyo, Japan offers a captivating contrast. Discover the breathtaking beauty of Mount Fuji, indulge in exquisite cuisine from delicate sushi to hearty ramen, and immerse yourself in a culture rich in history, art, and unparalleled hospitality. Whether you're tracing samurai history, witnessing the ephemeral beauty of cherry blossoms, or skiing down powdery slopes, Japan promises an unforgettable and multifaceted adventure.",
+        "days": [
+            {
+                "day": 1,
+                "city": "tokyo",
+                "day_description": "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+                "images": [
+                    {
+                        "label": "welcome to Japan!!",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-1/welcome.jpeg"
+                    },
+                    {
+                        "label": "bae @ vending machine",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-1/bae.jpeg"
+                    },
+                    {
+                        "label": "train from narita to city",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-1/train.jpeg"
+                    },
+                    {
+                        "label": "food - fall for ramen",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-1/food.jpeg"
+                    },
+                    {
+                        "label": "us facing tokyo sky tree",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-1/us.jpeg"
+                    },
+                    {
+                        "label": "tokyo sky tree",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-1/tokyo-skytree.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 2,
+                "city": "tokyo",
+                "day_description": "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+                "images": [
+                    {
+                        "label": "morning matcha",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-2/matcha.jpeg"
+                    },
+                    {
+                        "label": "bae @ ghibli store",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-2/bae.jpeg"
+                    },
+                    {
+                        "label": "random girls in kimono",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-2/random.jpeg"
+                    },
+                    {
+                        "label": "sensō-ji temple",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-2/temple.jpeg"
+                    },
+                    {
+                        "label": "food - gyukatsu",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-2/food.jpeg"
+                    },
+                    {
+                        "label": "dinner - family mart",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-2/midnight-food.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 3,
+                "city": "tokyo",
+                "day_description": "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+                "images": [
+                    {
+                        "label": "us wandering around",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-3/us.jpeg"
+                    },
+                    {
+                        "label": "donki store",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-3/donki.jpeg"
+                    },
+                    {
+                        "label": "xn @ tokyo station",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-3/xn.jpeg"
+                    },
+                    {
+                        "label": "bae @ tokyo station",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-3/bae.jpeg"
+                    },
+                    {
+                        "label": "sushi @ shibuya",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-3/sushi.jpeg"
+                    },
+                    {
+                        "label": "harrypotter @ akasaka",
+                        "location": "tokyo",
+                        "src": "/images/japan-days/day-3/harrypotter.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 4,
+                "city": "nagano",
+                "day_description": "Journey to the Japanese Alps for a snowy adventure. Witness snow monkeys in onsen, explore historic Zenko-ji Temple under a soft snowfall, and savor warming Shinshu soba. The pristine white landscapes offer breathtaking winter beauty.",
+                "images": [
+                    {
+                        "label": "quick breakfast on train",
+                        "location": "nagano",
+                        "src": "/images/japan-days/day-4/breakfast.jpeg"
+                    },
+                    {
+                        "label": "us",
+                        "location": "nagano",
+                        "src": "/images/japan-days/day-4/us.jpeg"
+                    },
+                    {
+                        "label": "xn first time touch snow ~~",
+                        "location": "nagano",
+                        "src": "/images/japan-days/day-4/xn-snow.jpeg"
+                    },
+                    {
+                        "label": "bae first time touch snow ~~",
+                        "location": "nagano",
+                        "src": "/images/japan-days/day-4/bae-snow.jpeg"
+                    },
+                    {
+                        "label": "snow monkey park",
+                        "location": "nagano",
+                        "src": "/images/japan-days/day-4/monkey.jpeg"
+                    },
+                    {
+                        "label": "xn in yukata",
+                        "location": "nagano",
+                        "src": "/images/japan-days/day-4/xn-yukata.jpeg"
+                    },
+                    {
+                        "label": "bae in yukata",
+                        "location": "nagano",
+                        "src": "/images/japan-days/day-4/bae-yukata.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 5,
+                "city": "kanazawa",
+                "day_description": "Discover Kanazawa's winter elegance. Marvel at Kenrokuen Garden's snow-supported pines, wander through the historic Higashi Chaya District dusted with snow, and appreciate vibrant Kutani ware. Warm up with regional black curry in this quieter season.",
+                "images": [
+                    {
+                        "label": "bae eating kaiseki meal",
+                        "location": "kanazawa",
+                        "src": "/images/japan-days/day-5/bae-breakfast.jpeg"
+                    },
+                    {
+                        "label": "xn eating kaiseki meal",
+                        "location": "kanazawa",
+                        "src": "/images/japan-days/day-5/xn-breakfast.jpeg"
+                    },
+                    {
+                        "label": "mountain landscape",
+                        "location": "kanazawa",
+                        "src": "/images/japan-days/day-5/landscape.jpeg"
+                    },
+                    {
+                        "label": "bae @ kanazawa station",
+                        "location": "kanazawa",
+                        "src": "/images/japan-days/day-5/bae-kanazawa.jpeg"
+                    },
+                    {
+                        "label": "matcha ramen??",
+                        "location": "kanazawa",
+                        "src": "/images/japan-days/day-5/matcha-ramen.jpeg"
+                    },
+                    {
+                        "label": "xn @ kanazawa castle",
+                        "location": "kanazawa",
+                        "src": "/images/japan-days/day-5/xn-castle.jpeg"
+                    },
+                    {
+                        "label": "soup @ kanazawa station",
+                        "location": "kanazawa",
+                        "src": "/images/japan-days/day-5/food-kanazawa.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 6,
+                "city": "takayama - shirakawago - kanazawa",
+                "day_description": "Explore Takayama's picturesque old town, Sanmachi Suji, under a layer of snow. Visit the Takayama Jinya and sample local sake for warmth. Enjoy hearty Hida beef stew amidst the traditional charm of a winter setting.",
+                "images": [
+                    {
+                        "label": "best pudding ~~",
+                        "location": "shirakawago",
+                        "src": "/images/japan-days/day-6/flan.jpeg"
+                    },
+                    {
+                        "label": "do you want to build a snowman?",
+                        "location": "shirakawago",
+                        "src": "/images/japan-days/day-6/snowman.jpeg"
+                    },
+                    {
+                        "label": "shirakawago - UNESCO as a World Heritage Site",
+                        "location": "shirakawago",
+                        "src": "/images/japan-days/day-6/shirakawago.jpeg"
+                    },
+                    {
+                        "label": "bae and snow",
+                        "location": "shirakawago",
+                        "src": "/images/japan-days/day-6/bae.jpeg"
+                    },
+                    {
+                        "label": "xn & snow",
+                        "location": "shirakawago",
+                        "src": "/images/japan-days/day-6/xn.jpeg"
+                    },
+                    {
+                        "label": "random photograph",
+                        "location": "takayama",
+                        "src": "/images/japan-days/day-6/random.jpeg"
+                    },
+                    {
+                        "label": "sukiyaki hida beef",
+                        "location": "takayama",
+                        "src": "/images/japan-days/day-6/sukiyaki.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 7,
+                "city": "kyoto",
+                "day_description": "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+                "images": [
+                    {
+                        "label": "morning heavy snow",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-7/heavysnow.jpeg"
+                    },
+                    {
+                        "label": "random curry rice store",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-7/curryrice.jpeg"
+                    },
+                    {
+                        "label": "xn @ nanzen-ji temple",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-7/xn.jpeg"
+                    },
+                    {
+                        "label": "sunset @ kamo river noryo-yuka area",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-7/sunset.jpeg"
+                    },
+                    {
+                        "label": "bae",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-7/bae.jpeg"
+                    },
+                    {
+                        "label": "beef on beef",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-7/beef.jpeg"
+                    },
+                    {
+                        "label": "insanely delicious cold ramen",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-7/ramen.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 8,
+                "city": "kyoto",
+                "day_description": "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+                "images": [
+                    {
+                        "label": "tourist attraction - bamboo grove",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-8/bamboo.jpeg"
+                    },
+                    {
+                        "label": "bae @ bamboo forest",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-8/bae.jpeg"
+                    },
+                    {
+                        "label": "random photograph",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-8/random.jpeg"
+                    },
+                    {
+                        "label": "set lunch @ Yasaka Pagoda",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-8/lunchset.jpeg"
+                    },
+                    {
+                        "label": "Yasaka Pagoda",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-8/pagoda.jpeg"
+                    },
+                    {
+                        "label": "matcha on matcha",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-8/matcha.jpeg"
+                    },
+                    {
+                        "label": "okonomiyaki",
+                        "location": "kyoto",
+                        "src": "/images/japan-days/day-8/okonomiyaki.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 9,
+                "city": "osaka",
+                "day_description": "Experience Osaka's winter energy with festive illuminations and warm street food delights in Dotonbori. Visit Osaka Castle against the stark winter sky and savor comforting takoyaki. Embrace the city's lively atmosphere even in the cooler months.",
+                "images": [
+                    {
+                        "label": "xn and OOTD",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-9/xn.jpeg"
+                    },
+                    {
+                        "label": "takoyaki at market",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-9/takoyaki.jpeg"
+                    },
+                    {
+                        "label": "stil matcha",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-9/matcha.jpeg"
+                    },
+                    {
+                        "label": "bae with unagi!",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-9/bae.jpeg"
+                    },
+                    {
+                        "label": "osaka areaa",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-9/osaka.jpeg"
+                    },
+                    {
+                        "label": "famous animated graphic wall",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-9/graphic.jpeg"
+                    },
+                    {
+                        "label": "bae @ glico panel",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-9/baeglico.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 10,
+                "city": "osaka",
+                "day_description": "Experience Osaka's winter energy with festive illuminations and warm street food delights in Dotonbori. Visit Osaka Castle against the stark winter sky and savor comforting takoyaki. Embrace the city's lively atmosphere even in the cooler months.",
+                "images": [
+                    {
+                        "label": "namba-station",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-10/namba-station.jpeg"
+                    },
+                    {
+                        "label": "osaka-castle",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-10/osaka-castle.jpeg"
+                    },
+                    {
+                        "label": "random manhole cover",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-10/random.jpeg"
+                    },
+                    {
+                        "label": "tsutenkaku tower",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-10/shinsekai.jpeg"
+                    },
+                    {
+                        "label": "ramen again",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-10/ramen.jpeg"
+                    },
+                    {
+                        "label": "dearbros omelette rice",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-10/omelette.jpeg"
+                    },
+                    {
+                        "label": "set back home",
+                        "location": "osaka",
+                        "src": "/images/japan-days/day-10/backhome.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
+    { 
+        "id": "2", 
+        "country": "Hong Kong",
+        "destinations": {
+            "thumbnailImage": "/images/hongkong-days/day-3/temple.jpeg",
+            "facts": {
+                "language": "Cantonese; 'Hello' is 'nei hou'",
+                "religion": "Buddhism & Taoism",
+                "currency": "Hong Kong Dollar (HKD)",
+                "capital": "Hong Kong",
+                "budget": "A meal costs around HK$50 ~ 160K VND",
+                "visa": "90 day visa free access for many countries (Vietnam excluded)",
+                "transport": "Train system, buses, ding ding, taxi, walking",
+                "climate": "4 seasons, humid for Spring-Summer, cool dry for Autumn-Winter",
+                "safety":
+                "generally considered a safe place for travel, with a low crime rate overall",
+                "flight": "Hong Kong International Airport (HKIA)"
+            },
+            "ourTripDetails": {
+                "day1": "arrive at NRT",
+                "day2": "eating"
+            }
+        },
+        "places": "Victoria Habour - Hongkong Observation Wheel - Lan Kwai Fong - Disneyland - 1881 Heritage",
+        "image": "/images/hongkong-days/day-4/disneyland.jpeg",
+        "flag": "./images/flags/hongkong.svg",
+        "stars": 3,
+        "date": "26.04.2024 - 30.04.2024",
+        "short_description": "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
+        "title": "Skyscraper Spectacle & Dim Sum Delights",
+        "long_description": "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors. Beyond the urban sprawl, discover tranquil hiking trails, serene beaches, and charming islands. From the iconic Star Ferry to the vibrant nightlife of Lan Kwai Fong, Hong Kong is a city that pulsates with life and offers a unique blend of tradition and modernity.",
+        "days": [
+            {
+                "day": 1,
+                "city": "hongkong",
+                "day_description": "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
+                "images": [
+                    {
+                        "label": "welcome to hongkong!!",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/octopus-card.jpeg"
+                    },
+                    {
+                        "label": "us @ airport",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/us-airport.jpeg"
+                    },
+                    {
+                        "label": "bae @ bus station to center",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/bae-busstation.jpeg"
+                    },
+                    {
+                        "label": "random photograph",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/random.jpeg"
+                    },
+                    {
+                        "label": "lunch time with pork-duck rices",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/food.jpeg"
+                    },
+                    {
+                        "label": "bae @ victoria harbour",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/bae-river.jpeg"
+                    },
+                    {
+                        "label": "xn @ victoria harbour",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/xn.jpeg"
+                    },
+                    {
+                        "label": "super cute vending machine at avenue of stars",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/avenue-stars.jpeg"
+                    },
+                    {
+                        "label": "symphony of lights at 8pm",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-1/night.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 2,
+                "city": "hongkong",
+                "day_description": "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
+                "images": [
+                    {
+                        "label": "random street photograph",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/random.jpeg"
+                    },
+                    {
+                        "label": "bae",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/bae.jpeg"
+                    },
+                    {
+                        "label": "wheel",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/wheel.jpeg"
+                    },
+                    {
+                        "label": "xn",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/xn.jpeg"
+                    },
+                    {
+                        "label": "ding ding ~",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/dingding.jpeg"
+                    },
+                    {
+                        "label": "longest escalator",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/escalator.jpeg"
+                    },
+                    {
+                        "label": "bao & dimsum",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/food.jpeg"
+                    },
+                    {
+                        "label": "temple",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/temple.jpeg"
+                    },
+                    {
+                        "label": "beef noodle at night",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-2/night-food.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 3,
+                "city": "hongkong",
+                "day_description": "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
+                "images": [
+                    {
+                        "label": "super breakfast",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/food.jpeg"
+                    },
+                    {
+                        "label": "bae with OOTD",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/bae.jpeg"
+                    },
+                    {
+                        "label": "xn & train station series",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/xn.jpeg"
+                    },
+                    {
+                        "label": "temple",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/temple.jpeg"
+                    },
+                    {
+                        "label": "random photograph",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/random.jpeg"
+                    },
+                    {
+                        "label": "us @ colorful building",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/us.jpeg"
+                    },
+                    {
+                        "label": "bae by the sea",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/bae-river.jpeg"
+                    },
+                    {
+                        "label": "hot porridge",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/porridge.jpeg"
+                    },
+                    {
+                        "label": "us @ monster building",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/building.jpeg"
+                    },
+                    {
+                        "label": "bae on river cruise",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-3/bae-cruise.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 4,
+                "city": "hongkong",
+                "day_description": "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
+                "images": [
+                    {
+                        "label": "welcome to disneyland hongkong!!",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/disneyland.jpeg"
+                    },
+                    {
+                        "label": "us @ disneyland",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/us.jpeg"
+                    },
+                    {
+                        "label": "high quality lunch time @ disneyland",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/food.jpeg"
+                    },
+                    {
+                        "label": "my toy story",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/toy-story.jpeg"
+                    },
+                    {
+                        "label": "fairy tale building",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/building.jpeg"
+                    },
+                    {
+                        "label": "watching ballet",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/ballet.jpeg"
+                    },
+                    {
+                        "label": "night firework @ disneyland",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/night.jpeg"
+                    },
+                    {
+                        "label": "bae - no more energy after long playday",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/bae.jpeg"
+                    },
+                    {
+                        "label": "late dinner is a must",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-4/night-food.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 5,
+                "city": "hongkong",
+                "day_description": "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
+                "images": [
+                    {
+                        "label": "another high quality breakfast",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-5/food.jpeg"
+                    },
+                    {
+                        "label": "bae @ 1881 heritage",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-5/bae.jpeg"
+                    },
+                    {
+                        "label": "random corner photograph",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-5/random1.jpeg"
+                    },
+                    {
+                        "label": "xn @ 1881 heritage",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-5/xn.jpeg"
+                    },
+                    {
+                        "label": "beautiful 1881 heritage",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-5/1881.jpeg"
+                    },
+                    {
+                        "label": "another random corner photograph",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-5/random2.jpeg"
+                    },
+                    {
+                        "label": "busy city",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-5/random3.jpeg"
+                    },
+                    {
+                        "label": "normal rice before goin' to airport",
+                        "location": "hongkong",
+                        "src": "/images/hongkong-days/day-5/rice.jpeg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3", 
+        "country": "Thailand",
+        "destinations": {
+            "thumbnailImage": "/images/thailand-days/day-4/random.jpeg",
+            "facts": {
+                "language": "Thai; 'Hello' is 'sà-wàt-dii khrap (men)'",
+                "religion": "Buddhism & Islam",
+                "currency": "Thai Baht (THB)",
+                "capital": "Bangkok",
+                "budget": "A meal costs around 80 baht ~ 60K VND",
+                "visa": "30/60 day visa free access for many countries (Vietnam included)",
+                "transport": "Train system, buses, taxi, walking",
+                "climate": "tropical climate - warm and humid year-round",
+                "safety":
+                "generally safe for tourists, but be cautious due to security and safety risks",
+                "flight": "Suvarnabhumi Airport (BKK) / Don Mueang International Airport (DMK)"
+            },
+            "ourTripDetails": {
+                "day1": "arrive at NRT",
+                "day2": "eating"
+            }
+        },
+        "places": "Siam Area - Jodd Fair Night Market - Wat Paknam Temple - Yaowarat - Talat Noi - Icon Siam - Bangkok Grand Palace",
+        "image": "/images/thailand-days/day-3/random.jpeg",
+        "flag": "./images/flags/thailand.svg",
+        "stars": 4,
+        "date": "02.12.2023 - 05.12.2023",
+        "short_description": "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine, from spicy curries to fragrant street food.",
+        "title": "Spicy Aromas & Street Food Feasts",
+        "long_description": "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, discover ancient ruins in Ayutthaya and Sukhothai, and relax on the pristine sands of Phuket or Koh Lanta. Indulge in the tantalizing flavors of Thai cuisine, from spicy curries to fragrant street food, and experience the warmth and hospitality of the Thai people. Whether you seek adventure in the jungle, tranquility on the coast, or cultural immersion in ancient cities, Thailand offers a truly unforgettable escape.",
+        "days": [
+            {
+                "day": 1,
+                "city": "thailand",
+                "day_description": "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+                "images": [
+                    {
+                        "label": "start food trip @ thailand!!",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/breakfast.jpeg"
+                    },
+                    {
+                        "label": "xn @ cafeshop",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/xn-cafe.jpeg"
+                    },
+                    {
+                        "label": "soup soup ~",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/soup.jpeg"
+                    },
+                    {
+                        "label": "bae @ center",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/bae.jpeg"
+                    },
+                    {
+                        "label": "mbk center",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/mbk.jpeg"
+                    },
+                    {
+                        "label": "xn @ gallery",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/xn.jpeg"
+                    },
+                    {
+                        "label": "bae @ gallery",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/bae-gallery.jpeg"
+                    },
+                    {
+                        "label": "tuktuk at night",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/tuktuk.jpeg"
+                    },
+                    {
+                        "label": "hot & sour noodle soup @ night market",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-1/noodle.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 2,
+                "city": "thailand",
+                "day_description": "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+                "images": [
+                    {
+                        "label": "us @ mrt station",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/us.jpeg"
+                    },
+                    {
+                        "label": "porridge for breakfast",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/breakfast.jpeg"
+                    },
+                    {
+                        "label": "wat paknam",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/buddha.jpeg"
+                    },
+                    {
+                        "label": "pagoda",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/pagoda.jpeg"
+                    },
+                    {
+                        "label": "bae @ cafeshop",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/bae.jpeg"
+                    },
+                    {
+                        "label": "spicy chicken/pork minced with rice",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/rice.jpeg"
+                    },
+                    {
+                        "label": "afteryou - mango bingsu",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/bingsu.jpeg"
+                    },
+                    {
+                        "label": "dinner",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/night.jpeg"
+                    },
+                    {
+                        "label": "random photograph",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/random.jpeg"
+                    },
+                    {
+                        "label": "super spicy octopus",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-2/spicy-octopus.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 3,
+                "city": "thailand",
+                "day_description": "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+                "images": [
+                    {
+                        "label": "super packed breakfast",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/breakfast.jpeg"
+                    },
+                    {
+                        "label": "bae @ mrt station",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/bae.jpeg"
+                    },
+                    {
+                        "label": "random photograph",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/random.jpeg"
+                    },
+                    {
+                        "label": "roasted pork rice",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/rice.jpeg"
+                    },
+                    {
+                        "label": "river cruise",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/cruise.jpeg"
+                    },
+                    {
+                        "label": "mall - gallery center",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/mall.jpeg"
+                    },
+                    {
+                        "label": "us",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/us.jpeg"
+                    },
+                    {
+                        "label": "mall with porsche showroom inside",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/mall2.jpeg"
+                    },
+                    {
+                        "label": "mall with water flow inside",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/mall3.jpeg"
+                    },
+                    {
+                        "label": "hotpot hotpot ~",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-3/dinner.jpeg"
+                    }
+                ]
+            },
+            {
+                "day": 4,
+                "city": "thailand",
+                "day_description": "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+                "images": [
+                    {
+                        "label": "breakfast @ vintage restaurant",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/restaurant.jpeg"
+                    },
+                    {
+                        "label": "breakfast",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/breakfast.jpeg"
+                    },
+                    {
+                        "label": "huge building",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/building.jpeg"
+                    },
+                    {
+                        "label": "mango sticky rice for sure~~",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/mango.jpeg"
+                    },
+                    {
+                        "label": "random photograph",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/random.jpeg"
+                    },
+                    {
+                        "label": "another random photograph",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/random2.jpeg"
+                    },
+                    {
+                        "label": "xn @ grand palace",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/xn.jpeg"
+                    },
+                    {
+                        "label": "grand palace",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/palace.jpeg"
+                    },
+                    {
+                        "label": "don mueang airport",
+                        "location": "thailand",
+                        "src": "/images/thailand-days/day-4/airport.jpeg"
+                    }
+                ]
+            }
+        ]
+    }
+]
