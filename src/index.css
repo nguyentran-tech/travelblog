@@ -47,3 +47,35 @@ img {
   background: #c89a68;
   color: #171411;
 }
+
+@keyframes photo-next {
+  from {
+    opacity: 0;
+    transform: translateX(18px) scale(0.985);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes photo-previous {
+  from {
+    opacity: 0;
+    transform: translateX(-18px) scale(0.985);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+.animate-photo-next {
+  animation: photo-next 300ms ease-out;
+}
+
+.animate-photo-previous {
+  animation: photo-previous 300ms ease-out;
+}

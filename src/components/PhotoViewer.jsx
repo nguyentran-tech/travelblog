@@ -8,17 +8,39 @@ function PhotoViewer({
   const [currentIndex, setCurrentIndex] =
     useState(initialIndex);
 
+  const [direction, setDirection] =
+    useState("next");
+
+  const [isImageLoaded, setIsImageLoaded] =
+    useState(false);
+
   const currentImage = images[currentIndex];
 
+  /*
+   * Navigate to next photo
+   */
   const goNext = () => {
+    setDirection("next");
+    setIsImageLoaded(false);
+
     setCurrentIndex((index) =>
-      index === images.length - 1 ? 0 : index + 1
+      index === images.length - 1
+        ? 0
+        : index + 1
     );
   };
 
+  /*
+   * Navigate to previous photo
+   */
   const goPrevious = () => {
+    setDirection("previous");
+    setIsImageLoaded(false);
+
     setCurrentIndex((index) =>
-      index === 0 ? images.length - 1 : index - 1
+      index === 0
+        ? images.length - 1
+        : index - 1
     );
   };
 
@@ -51,7 +73,7 @@ function PhotoViewer({
         handleKeyDown
       );
     };
-  }, [onClose]);
+  }, [currentIndex, images.length]);
 
   /*
    * Prevent background page from scrolling
@@ -69,7 +91,32 @@ function PhotoViewer({
   }, []);
 
   /*
-   * Swipe detection
+   * Preload previous and next images
+   */
+  useEffect(() => {
+    const nextIndex =
+      currentIndex === images.length - 1
+        ? 0
+        : currentIndex + 1;
+
+    const previousIndex =
+      currentIndex === 0
+        ? images.length - 1
+        : currentIndex - 1;
+
+    const preload = (image) => {
+      if (!image) return;
+
+      const img = new Image();
+      img.src = image.src;
+    };
+
+    preload(images[nextIndex]);
+    preload(images[previousIndex]);
+  }, [currentIndex, images]);
+
+  /*
+   * Touch swipe
    */
   const handleTouchStart = (event) => {
     event.currentTarget.dataset.startX =
@@ -86,7 +133,6 @@ function PhotoViewer({
 
     const difference = startX - endX;
 
-    // Ignore very small movements
     if (Math.abs(difference) < 50) {
       return;
     }
@@ -104,9 +150,6 @@ function PhotoViewer({
         fixed
         inset-0
         z-[9999]
-        flex
-        items-center
-        justify-center
         bg-black/95
         backdrop-blur-sm
       "
@@ -114,11 +157,24 @@ function PhotoViewer({
       aria-modal="true"
       aria-label="Photo viewer"
     >
-      {/* ============================= */}
+      {/* ========================= */}
       {/* TOP BAR */}
-      {/* ============================= */}
+      {/* ========================= */}
 
-      <div className="absolute inset-x-0 top-0 z-20 flex items-center justify-between px-5 py-5 sm:px-8">
+      <div
+        className="
+          absolute
+          inset-x-0
+          top-0
+          z-30
+          flex
+          items-center
+          justify-between
+          px-5
+          py-5
+          sm:px-8
+        "
+      >
         <p className="text-xs tracking-[0.15em] text-white/50">
           {String(currentIndex + 1).padStart(2, "0")}
           {" / "}
@@ -148,9 +204,9 @@ function PhotoViewer({
         </button>
       </div>
 
-      {/* ============================= */}
+      {/* ========================= */}
       {/* PREVIOUS BUTTON */}
-      {/* ============================= */}
+      {/* ========================= */}
 
       <button
         type="button"
@@ -158,9 +214,9 @@ function PhotoViewer({
         aria-label="Previous photo"
         className="
           absolute
-          left-6
+          left-5
           top-1/2
-          z-20
+          z-30
           hidden
           h-12
           w-12
@@ -171,7 +227,7 @@ function PhotoViewer({
           bg-white/10
           text-xl
           text-white/80
-          transition-colors
+          transition-all
           hover:bg-white/20
           hover:text-white
           md:flex
@@ -180,9 +236,9 @@ function PhotoViewer({
         ←
       </button>
 
-      {/* ============================= */}
+      {/* ========================= */}
       {/* NEXT BUTTON */}
-      {/* ============================= */}
+      {/* ========================= */}
 
       <button
         type="button"
@@ -190,9 +246,9 @@ function PhotoViewer({
         aria-label="Next photo"
         className="
           absolute
-          right-6
+          right-5
           top-1/2
-          z-20
+          z-30
           hidden
           h-12
           w-12
@@ -203,7 +259,7 @@ function PhotoViewer({
           bg-white/10
           text-xl
           text-white/80
-          transition-colors
+          transition-all
           hover:bg-white/20
           hover:text-white
           md:flex
@@ -212,21 +268,23 @@ function PhotoViewer({
         →
       </button>
 
-      {/* ============================= */}
+      {/* ========================= */}
       {/* IMAGE AREA */}
-      {/* ============================= */}
+      {/* ========================= */}
 
       <div
         className="
+          absolute
+          inset-0
+          z-20
           flex
-          h-full
-          w-full
-          touch-pan-y
           items-center
           justify-center
           px-5
-          py-20
+          pb-28
+          pt-20
           sm:px-16
+          sm:pb-24
         "
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
@@ -236,20 +294,72 @@ function PhotoViewer({
           src={currentImage.src}
           alt={currentImage.alt}
           draggable="false"
-          className="
+          onLoad={() =>
+            setIsImageLoaded(true)
+          }
+          className={`
             max-h-full
             max-w-full
             select-none
             object-contain
-          "
+            transition-all
+            duration-300
+            ease-out
+            ${
+              isImageLoaded
+                ? "scale-100 opacity-100"
+                : "scale-[0.98] opacity-0"
+            }
+            ${
+              direction === "next"
+                ? "animate-photo-next"
+                : "animate-photo-previous"
+            }
+          `}
         />
       </div>
 
-      {/* ============================= */}
-      {/* MOBILE CONTROLS */}
-      {/* ============================= */}
+      {/* ========================= */}
+      {/* CAPTION */}
+      {/* ========================= */}
 
-      <div className="absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 items-center gap-5 md:hidden">
+      {currentImage.caption && (
+        <div
+          className="
+            absolute
+            bottom-16
+            left-1/2
+            z-30
+            w-[calc(100%-3rem)]
+            max-w-xl
+            -translate-x-1/2
+            text-center
+            sm:bottom-8
+          "
+        >
+          <p className="text-sm leading-6 text-white/60">
+            {currentImage.caption}
+          </p>
+        </div>
+      )}
+
+      {/* ========================= */}
+      {/* MOBILE CONTROLS */}
+      {/* ========================= */}
+
+      <div
+        className="
+          absolute
+          bottom-5
+          left-1/2
+          z-30
+          flex
+          -translate-x-1/2
+          items-center
+          gap-5
+          sm:hidden
+        "
+      >
         <button
           type="button"
           onClick={goPrevious}

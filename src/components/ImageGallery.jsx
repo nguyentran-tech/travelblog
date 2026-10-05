@@ -2,7 +2,7 @@ import React from 'react'
 
 function ImageGallery({ images, onImageClick }) {
   return (
-    <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-5">
+    <div className="grid grid-cols-2 gap-3 sm:gap-5">
       {images.map((image, index) => {
         const isFeatured = image.featured;
 
@@ -11,19 +11,79 @@ function ImageGallery({ images, onImageClick }) {
             key={image.src}
             type="button"
             onClick={() => onImageClick(index)}
-            className={
-              isFeatured
-                ? "group col-span-2 overflow-hidden rounded-xl text-left"
-                : "group overflow-hidden rounded-xl text-left"
-            }
+            className={`
+              group
+              relative
+              overflow-hidden
+              rounded-xl
+              text-left
+
+              ${
+                isFeatured
+                  ? "col-span-2"
+                  : "col-span-1"
+              }
+            `}
           >
             <img
               src={image.src}
               alt={image.alt}
-              loading={index < 2 ? "eager" : "lazy"}
+              loading={
+                index < 2
+                  ? "eager"
+                  : "lazy"
+              }
               decoding="async"
-              className="aspect-[4/3] h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+              className={`
+                w-full
+                object-cover
+                transition-transform
+                duration-700
+                ease-out
+                group-hover:scale-[1.03]
+
+                ${
+                  isFeatured
+                    ? "aspect-[16/9]"
+                    : "aspect-[4/3]"
+                }
+              `}
             />
+
+            {/* Hover overlay */}
+
+            <span
+              className="
+                pointer-events-none
+                absolute
+                inset-0
+                flex
+                items-center
+                justify-center
+                bg-black/0
+                opacity-0
+                transition-all
+                duration-300
+                group-hover:bg-black/20
+                group-hover:opacity-100
+              "
+            >
+              <span
+                className="
+                  rounded-full
+                  bg-black/40
+                  px-4
+                  py-2
+                  text-xs
+                  uppercase
+                  tracking-[0.2em]
+                  text-white
+                  backdrop-blur-sm
+                "
+              >
+                View
+              </span>
+            </span>
           </button>
         );
       })}

@@ -3,7 +3,10 @@ import ImageGallery from "./ImageGallery";
 
 function DaySection({ day, onImageClick }) {
   return (
-    <section className="border-t border-white/10 py-16 sm:py-24 lg:py-32">
+    <section
+      id={`day-${day.day}`} 
+      className="scroll-mt-24 border-t border-white/10 py-16 sm:py-24 lg:py-32"
+    >
       <div className="grid gap-10 lg:grid-cols-[280px_1fr] lg:gap-20">
         {/* Day information */}
         <div className="lg:sticky lg:top-10 lg:h-fit">

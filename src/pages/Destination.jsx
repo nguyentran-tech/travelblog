@@ -1,17 +1,70 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link, useParams } from "react-router-dom";
 import { destinations } from "../assets/assets";
 import DaySection from "../components/DaySection";
 import PhotoViewer from "../components/PhotoViewer";
+import DayNavigation from "../components/DayNavigation";
 
 function Destination() {
   const { id } = useParams();
 
   const [viewer, setViewer] = useState(null);
-
+  
   const destination = destinations.find(
     (item) => item.id === id
   );
+  
+  const [activeDay, setActiveDay] = useState(destination.days[0]?.day ?? 1);
+  const [isNavigating, setIsNavigating] = useState(false);
+
+  {/** auto highlight the day that is being read */}
+  useEffect(() => {
+    const handleScroll = () => {
+      if (isNavigating) return;
+
+      const navigationOffset = 120;
+
+      let closestDay = destination.days[0]?.day;
+      let closestDistance = Infinity;
+
+      destination.days.forEach((day) => {
+        const element = document.getElementById(
+          `day-${day.day}`
+        );
+
+        if (!element) return;
+
+        const distance = Math.abs(
+          element.getBoundingClientRect().top -
+            navigationOffset
+        );
+
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestDay = day.day;
+        }
+      });
+
+      if (closestDay !== undefined) {
+        setActiveDay(closestDay);
+      }
+    };
+
+    window.addEventListener(
+      "scroll",
+      handleScroll,
+      { passive: true }
+    );
+
+    handleScroll();
+
+    return () => {
+      window.removeEventListener(
+        "scroll",
+        handleScroll
+      );
+    };
+  }, [destination.days, isNavigating]);
 
   if (!destination) {
     return (
@@ -87,6 +140,19 @@ function Destination() {
           </div>
         </div>
       </section>
+
+      <DayNavigation
+        days={destination.days}
+        activeDay={activeDay}
+        onDayChange={(day) => {
+          setIsNavigating(true);
+          setActiveDay(day);
+
+          setTimeout(() => {
+            setIsNavigating(false);
+          }, 700);
+        }}
+      />
 
       {/* Day sections */}
       <section className="px-6 sm:px-10 lg:px-16">
