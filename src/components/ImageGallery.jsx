@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import ResponsiveImage from "./ResponsiveImage";
 
 function ImageGallery({ images, onImageClick }) {
   return (
@@ -25,15 +26,16 @@ function ImageGallery({ images, onImageClick }) {
               }
             `}
           >
-            <img
-              src={image.src}
+            <ResponsiveImage
+              imageKey={image.imageKey}
               alt={image.alt}
-              loading={
-                index < 2
-                  ? "eager"
-                  : "lazy"
+              loading={index < 2 ? "eager" : "lazy"}
+              fetchPriority={index < 2 ? "high" : "auto"}
+              sizes={
+                isFeatured
+                  ? "100vw"
+                  : "(max-width: 640px) 50vw, 50vw"
               }
-              decoding="async"
               className={`
                 w-full
                 object-cover

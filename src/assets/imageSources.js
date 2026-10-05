@@ -26,3 +26,12 @@ export function getResponsiveImages(imageKey) {
     },
   };
 }
+
+export function getViewerImage(imageKey) { 
+  const images = getResponsiveImages(imageKey); 
+  
+  return { 
+    avif: images.avif[2000], 
+    webp: images.webp[2000], 
+  }; 
+}

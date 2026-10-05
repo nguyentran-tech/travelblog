@@ -1,20 +1,27 @@
 import React, { useEffect, useState } from "react";
+import { getViewerImage, getResponsiveImages } from "../assets/imageSources";
 
 function PhotoViewer({
   images,
   initialIndex,
   onClose,
 }) {
-  const [currentIndex, setCurrentIndex] =
-    useState(initialIndex);
+  const [currentIndex, setCurrentIndex] = useState(initialIndex);
 
-  const [direction, setDirection] =
-    useState("next");
+  const [direction, setDirection] = useState("next");
 
-  const [isImageLoaded, setIsImageLoaded] =
-    useState(false);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
   const currentImage = images[currentIndex];
+
+  /*
+   * Get the optimized high-resolution
+   * image for the current photo.
+   */
+  const viewerImage =
+    getViewerImage(
+      currentImage.imageKey
+    );
 
   /*
    * Navigate to next photo
@@ -73,7 +80,10 @@ function PhotoViewer({
         handleKeyDown
       );
     };
-  }, [currentIndex, images.length]);
+  }, [
+    currentIndex,
+    images.length,
+  ]);
 
   /*
    * Prevent background page from scrolling
@@ -82,7 +92,8 @@ function PhotoViewer({
     const originalOverflow =
       document.body.style.overflow;
 
-    document.body.style.overflow = "hidden";
+    document.body.style.overflow =
+      "hidden";
 
     return () => {
       document.body.style.overflow =
@@ -91,28 +102,33 @@ function PhotoViewer({
   }, []);
 
   /*
-   * Preload previous and next images
-   */
+  * Preload only the next photo.
+  *
+  * We use the 1200px version here because this is
+  * only a preparation for the user's next action.
+  *
+  * The current photo still uses the full 2000px version.
+  */
   useEffect(() => {
     const nextIndex =
       currentIndex === images.length - 1
         ? 0
         : currentIndex + 1;
 
-    const previousIndex =
-      currentIndex === 0
-        ? images.length - 1
-        : currentIndex - 1;
+    const nextImage = images[nextIndex];
 
-    const preload = (image) => {
-      if (!image) return;
+    if (!nextImage?.imageKey) {
+      return;
+    }
 
-      const img = new Image();
-      img.src = image.src;
-    };
+    const optimized =
+      getResponsiveImages(
+        nextImage.imageKey
+      );
 
-    preload(images[nextIndex]);
-    preload(images[previousIndex]);
+    const img = new Image();
+
+    img.src = optimized.webp[1200];
   }, [currentIndex, images]);
 
   /*
@@ -131,9 +147,12 @@ function PhotoViewer({
     const endX =
       event.changedTouches[0].clientX;
 
-    const difference = startX - endX;
+    const difference =
+      startX - endX;
 
-    if (Math.abs(difference) < 50) {
+    if (
+      Math.abs(difference) < 50
+    ) {
       return;
     }
 
@@ -176,9 +195,13 @@ function PhotoViewer({
         "
       >
         <p className="text-xs tracking-[0.15em] text-white/50">
-          {String(currentIndex + 1).padStart(2, "0")}
+          {String(
+            currentIndex + 1
+          ).padStart(2, "0")}
           {" / "}
-          {String(images.length).padStart(2, "0")}
+          {String(
+            images.length
+          ).padStart(2, "0")}
         </p>
 
         <button
@@ -286,37 +309,54 @@ function PhotoViewer({
           sm:px-16
           sm:pb-24
         "
-        onTouchStart={handleTouchStart}
-        onTouchEnd={handleTouchEnd}
+        onTouchStart={
+          handleTouchStart
+        }
+        onTouchEnd={
+          handleTouchEnd
+        }
       >
-        <img
-          key={currentImage.src}
-          src={currentImage.src}
-          alt={currentImage.alt}
-          draggable="false"
-          onLoad={() =>
-            setIsImageLoaded(true)
-          }
-          className={`
-            max-h-full
-            max-w-full
-            select-none
-            object-contain
-            transition-all
-            duration-300
-            ease-out
-            ${
-              isImageLoaded
-                ? "scale-100 opacity-100"
-                : "scale-[0.98] opacity-0"
+        <picture
+          key={currentImage.imageKey}
+          className="contents"
+        >
+          <source
+            type="image/avif"
+            srcSet={
+              viewerImage.avif
             }
-            ${
-              direction === "next"
-                ? "animate-photo-next"
-                : "animate-photo-previous"
+          />
+
+          <img
+            src={viewerImage.webp}
+            alt={currentImage.alt}
+            draggable="false"
+            onLoad={() =>
+              setIsImageLoaded(true)
             }
-          `}
-        />
+            className={`
+              max-h-full
+              max-w-full
+              select-none
+              object-contain
+              transition-all
+              duration-300
+              ease-out
+
+              ${
+                isImageLoaded
+                  ? "scale-100 opacity-100"
+                  : "scale-[0.98] opacity-0"
+              }
+
+              ${
+                direction === "next"
+                  ? "animate-photo-next"
+                  : "animate-photo-previous"
+              }
+            `}
+          />
+        </picture>
       </div>
 
       {/* ========================= */}

@@ -48,6 +48,38 @@ img {
   color: #171411;
 }
 
+@theme {
+  --color-background: #171411;
+  --color-foreground: #f4eee7;
+  --color-accent: #c89a68;
+
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-fade-in: fade-in 400ms ease-out;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-7px);
+    }
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
 @keyframes photo-next {
   from {
     opacity: 0;
