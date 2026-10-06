@@ -104,11 +104,11 @@ function WelcomeScreen({ onComplete }) {
         {/* Heading */}
         <div className="mb-8">
           <p className="mb-3 text-xs uppercase tracking-[0.3em] text-[#C89A68]">
-            Our little travel journal
+            Welcome to XN & MA travel journal
           </p>
 
           <h1 className="text-3xl font-medium tracking-tight text-[#F4EEE7] sm:text-4xl">
-            A little journey
+            Our journey
             <br />
             begins here.
           </h1>
