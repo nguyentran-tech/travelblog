@@ -1,6 +1,15 @@
+// Country Flags
+//#region
+import cn_flag from './flags/cnflag.svg'
+import vn_flag from './flags/vnflag.svg'
+import jp_flag from './flags/jpflag.svg'
+import indo_flag from './flags/indoflag.svg'
+import hk_flag from './flags/hkflag.svg'
+import thai_flag from './flags/thaiflag.svg'
+//#endregion
+
 // China Photo Days
 //#region
-import china_flag from './china/cnflag.svg'
 import china_day1_hotel from './china/day-1/hotel.jpg'
 import china_day1_random from './china/day-1/random.jpg'
 import china_day1_spot from './china/day-1/spot.jpg'
@@ -79,7 +88,6 @@ import china_day7_bread from './china/day-7/bread.jpg'
 
 // Danang Photo Days
 //#region
-import vn_flag from './danang/vnflag.svg'
 import danang_day1_random2 from './danang/day-1/random2.jpg'
 import danang_day1_random from './danang/day-1/random.jpg'
 import danang_day1_dinner from './danang/day-1/dinner.jpg'
@@ -120,9 +128,141 @@ import danang_day4_hoian from './danang/day-4/hoian.jpg'
 import danang_day4_dinner from './danang/day-4/dinner.jpg'
 //#endregion
 
-// Japan1 Photo Days
+// Japan2 Photo Days
 //#region
-import japan_flag from './japan/jpflag.svg'
+import japan2_day1_train from './japan2/day-1/train.jpg'
+import japan2_day1_random from './japan2/day-1/random.jpg'
+import japan2_day1_xn from './japan2/day-1/xn.jpg'
+import japan2_day1_bae from './japan2/day-1/bae.jpg'
+import japan2_day1_ramen from './japan2/day-1/ramen.jpg'
+import japan2_day1_shopping from './japan2/day-1/shopping.jpg'
+import japan2_day1_queue from './japan2/day-1/queue.jpg'
+import japan2_day1_dinner from './japan2/day-1/dinner.jpg'
+
+import japan2_day2_xn from './japan2/day-2/xn.jpg'
+import japan2_day2_gacha from './japan2/day-2/gacha.jpg'
+import japan2_day2_lunch from './japan2/day-2/lunch.jpg'
+import japan2_day2_xmas from './japan2/day-2/xmas.jpg'
+import japan2_day2_us from './japan2/day-2/us.jpg'
+import japan2_day2_bae from './japan2/day-2/bae.jpg'
+import japan2_day2_sushi from './japan2/day-2/sushi.jpg'
+import japan2_day2_us2 from './japan2/day-2/us2.jpg'
+import japan2_day2_queue from './japan2/day-2/queue.jpg'
+import japan2_day2_ramen from './japan2/day-2/ramen.jpg'
+
+import japan2_day3_breakfast from './japan2/day-3/breakfast.jpg'
+import japan2_day3_xn from './japan2/day-3/xn.jpg'
+import japan2_day3_station from './japan2/day-3/station.jpg'
+import japan2_day3_bae from './japan2/day-3/bae.jpg'
+import japan2_day3_vending from './japan2/day-3/vending.jpg'
+import japan2_day3_bus from './japan2/day-3/bus.jpg'
+import japan2_day3_night from './japan2/day-3/night.jpg'
+import japan2_day3_dinner from './japan2/day-3/dinner.jpg'
+import japan2_day3_us from './japan2/day-3/us.jpg'
+import japan2_day3_ramen from './japan2/day-3/ramen.jpg'
+
+import japan2_day4_random from './japan2/day-4/random.jpg'
+import japan2_day4_crab from './japan2/day-4/crab.jpg'
+import japan2_day4_hill from './japan2/day-4/hill.jpg'
+import japan2_day4_bae from './japan2/day-4/bae.jpg'
+import japan2_day4_otaru from './japan2/day-4/otaru.jpg'
+import japan2_day4_xmas from './japan2/day-4/xmas.jpg'
+import japan2_day4_sapporo from './japan2/day-4/sapporo.jpg'
+import japan2_day4_beer from './japan2/day-4/beer.jpg'
+import japan2_day4_bus from './japan2/day-4/bus.jpg'
+import japan2_day4_us from './japan2/day-4/us.jpg'
+
+import japan2_day5_random2 from './japan2/day-5/random2.jpg'
+import japan2_day5_breakfast from './japan2/day-5/breakfast.jpg'
+import japan2_day5_mountain from './japan2/day-5/mountain.jpg'
+import japan2_day5_bae2 from './japan2/day-5/bae2.jpg'
+import japan2_day5_random from './japan2/day-5/random.jpg'
+import japan2_day5_koibito from './japan2/day-5/koibito.jpg'
+import japan2_day5_bae from './japan2/day-5/bae.jpg'
+import japan2_day5_lunch from './japan2/day-5/lunch.jpg'
+import japan2_day5_ramen from './japan2/day-5/ramen.jpg'
+import japan2_day5_midnight from './japan2/day-5/midnight.jpg'
+
+import japan2_day6_random2 from './japan2/day-6/random2.jpg'
+import japan2_day6_tokyo from './japan2/day-6/tokyo.jpg'
+import japan2_day6_breakfast from './japan2/day-6/breakfast.jpg'
+import japan2_day6_bae from './japan2/day-6/bae.jpg'
+import japan2_day6_random from './japan2/day-6/random.jpg'
+import japan2_day6_us from './japan2/day-6/us.jpg'
+import japan2_day6_xn from './japan2/day-6/xn.jpg'
+import japan2_day6_matcha from './japan2/day-6/matcha.jpg'
+import japan2_day6_xmas from './japan2/day-6/xmas.jpg'
+import japan2_day6_ramen from './japan2/day-6/ramen.jpg'
+
+import japan2_day7_random from './japan2/day-7/random.jpg'
+import japan2_day7_breakfast from './japan2/day-7/breakfast.jpg'
+import japan2_day7_scene from './japan2/day-7/scene.jpg'
+import japan2_day7_cat from './japan2/day-7/cat.jpg'
+import japan2_day7_xn from './japan2/day-7/xn.jpg'
+import japan2_day7_bae from './japan2/day-7/bae.jpg'
+import japan2_day7_cola from './japan2/day-7/cola.jpg'
+import japan2_day7_photo from './japan2/day-7/photo.jpg'
+import japan2_day7_imdonut from './japan2/day-7/imdonut.jpg'
+import japan2_day7_dinner from './japan2/day-7/dinner.jpg'
+
+import japan2_day8_imdonut from './japan2/day-8/imdonut.jpg'
+import japan2_day8_bae from './japan2/day-8/bae.jpg'
+import japan2_day8_shiba from './japan2/day-8/shiba.jpg'
+import japan2_day8_ramen from './japan2/day-8/ramen.jpg'
+import japan2_day8_xmas from './japan2/day-8/xmas.jpg'
+import japan2_day8_us from './japan2/day-8/us.jpg'
+import japan2_day8_snack from './japan2/day-8/snack.jpg'
+import japan2_day8_dinner from './japan2/day-8/dinner.jpg'
+import japan2_day8_meal from './japan2/day-8/meal.jpg'
+//#endregion
+
+// Bali Photo Days
+//#region
+import bali_day1_gasstation from './bali/day-1/gasstation.jpg'
+import bali_day1_signature from './bali/day-1/signature.jpg'
+import bali_day1_bae from './bali/day-1/dinner.jpg'
+import bali_day1_starbucks from './bali/day-1/starbucks.jpg'
+import bali_day1_xn from './bali/day-1/xn.jpg'
+import bali_day1_meal from './bali/day-1/meal.jpg'
+import bali_day1_random from './bali/day-1/random.jpg'
+import bali_day1_nightshow from './bali/day-1/nightshow.jpg'
+import bali_day1_show from './bali/day-1/show.jpg'
+
+import bali_day2_morning from './bali/day-2/morning.jpg'
+import bali_day2_breakfast from './bali/day-2/breakfast.jpg'
+import bali_day2_random from './bali/day-2/random.jpg'
+import bali_day2_bae from './bali/day-2/bae.jpg'
+import bali_day2_lunch from './bali/day-2/lunch.jpg'
+import bali_day2_sunset from './bali/day-2/sunset.jpg'
+import bali_day2_xn from './bali/day-2/xn.jpg'
+import bali_day2_night from './bali/day-2/night.jpg'
+import bali_day2_dinner from './bali/day-2/dinner.jpg'
+import bali_day2_nightfood from './bali/day-2/nightfood.jpg'
+
+import bali_day3_xn from './bali/day-3/xn.jpg'
+import bali_day3_breakfast from './bali/day-3/breakfast.jpg'
+import bali_day3_house from './bali/day-3/house.jpg'
+import bali_day3_bae from './bali/day-3/bae.jpg'
+import bali_day3_bae from './bali/day-3/bae.jpg'
+import bali_day3_random from './bali/day-3/random.jpg'
+import bali_day3_sea from './bali/day-3/sea.jpg'
+import bali_day3_scene from './bali/day-3/scene.jpg'
+import bali_day3_brunch from './bali/day-3/brunch.jpg'
+import bali_day3_sunset from './bali/day-3/sunset.jpg'
+
+import bali_day4_bae from './bali/day-4/bae.jpg'
+import bali_day4_breakfast from './bali/day-4/breakfast.jpg'
+import bali_day4_helicopter from './bali/day-4/helicopter.jpg'
+import bali_day4_vibe from './bali/day-4/vibe.jpg'
+import bali_day4_xn from './bali/day-4/xn.jpg'
+import bali_day4_ocean from './bali/day-4/ocean.jpg'
+import bali_day4_breakfast2 from './bali/day-4/breakfast2.jpg'
+import bali_day4_tiramisu from './bali/day-4/tiramisu.jpg'
+import bali_day4_lunch from './bali/day-4/lunch.jpg'
+//#endregion
+
+// Japan Photo Days
+//#region
 import japan_day1_bae from './japan/day-1/bae.jpeg'
 import japan_day1_food from './japan/day-1/food.jpeg'
 import japan_day1_tokyo_skytree from './japan/day-1/tokyo_skytree.jpeg'
@@ -199,7 +339,6 @@ import japan_day10_omelette from './japan/day-10/omelette.jpeg'
 
 // Hong Kong Photo Days
 //#region
-import hongkong_flag from './hongkong/hkflag.svg'
 import hongkong_day1_octopus from './hongkong/day-1/octopus.jpeg'
 import hongkong_day1_airport from './hongkong/day-1/airport.jpeg'
 import hongkong_day1_bae from './hongkong/day-1/bae.jpeg'
@@ -249,7 +388,6 @@ import hongkong_day5_rice from './hongkong/day-5/rice.jpeg'
 
 // Thailand Photo Days
 //#region
-import thai_flag from './thailand/thaiflag.svg'
 import thailand_day1_noodle from './thailand/day-1/noodle.jpeg'
 import thailand_day1_bae from './thailand/day-1/bae.jpeg'
 import thailand_day1_xn from './thailand/day-1/xn.jpeg'
@@ -287,13 +425,14 @@ import thailand_day4_airport from './thailand/day-4/airport.jpeg'
 
 // Destinations
 export const destinations = [
+  //China
   {
     id: "china",
     name: "China",
     date: "28.08.26 - 03.09.26",
     location: "Hangzhou - Shanghai",
     cover: china_day4_bund,
-    flag: china_flag,
+    flag: cn_flag,
     description: "Snow-Kissed Serenity: Unveiling Japan's Winter Wonders",
     days: [
       {
@@ -721,7 +860,8 @@ export const destinations = [
       }
     ]
   },
-
+  
+  //Da Nang
   {
     id: "danang",
     name: "Da Nang",
@@ -953,6 +1093,7 @@ export const destinations = [
     ]
   },
 
+  //Japan2
   {
     id: "japan2",
     name: "Japan",
@@ -971,56 +1112,43 @@ export const destinations = [
         images: [
           {
             alt: "train to city",
-            src: china_day1_hotel,
-            imageKey: "china/day-1/hotel"
+            src: japan2_day1_train,
+            imageKey: "japan2/day-1/train"
           },
           {
             alt: "random photograph",
-            src: china_day1_random,
-            imageKey: "china/day-1/random",
-            featured: true
+            src: japan2_day1_random,
+            imageKey: "japan2/day-1/random",
           },
           {
-            alt: "our fitcheck spot",
-            src: china_day1_spot,
-            imageKey: "china/day-1/spot"
+            alt: "hi Sapporo Tower",
+            src: japan2_day1_xn,
+            imageKey: "japan2/day-1/xn"
           },
           {
-            alt: "street near hotel",
-            src: china_day1_bae,
-            imageKey: "china/day-1/bae"
+            alt: "hi Sapporo Tower",
+            src: japan2_day1_bae,
+            imageKey: "japan2/day-1/bae"
           },
           {
-            alt: "us @checkin spot",
-            src: china_day1_us,
-            imageKey: "china/day-1/us"
+            alt: "our very first ramen in Sapporo",
+            src: japan2_day1_ramen,
+            imageKey: "japan2/day-1/ramen"
           },
           {
-            alt: "beautiful street",
-            src: china_day1_road,
-            imageKey: "china/day-1/road",
-            featured: true
+            alt: "it's just too cold ^-^",
+            src: japan2_day1_shopping,
+            imageKey: "japan2/day-1/shopping"
           },
           {
-            alt: "our 1st dinner",
-            src: china_day1_lunch,
-            imageKey: "china/day-1/lunch"
+            alt: "queue for curry rice",
+            src: japan2_day1_queue,
+            imageKey: "japan2/day-1/queue"
           },
           {
-            alt: "xn @heytea",
-            src: china_day1_xn,
-            imageKey: "china/day-1/xn"
-          },
-          {
-            alt: "our 1st heytea",
-            src: china_day1_heytea,
-            imageKey: "china/day-1/heytea",
-            featured: true
-          },
-          {
-            alt: "bread store",
-            src: china_day1_bread,
-            imageKey: "china/day-1/bread"
+            alt: "our dinner",
+            src: japan2_day1_dinner,
+            imageKey: "japan2/day-1/dinner"
           }
         ]
       },
@@ -1028,62 +1156,60 @@ export const destinations = [
       {
         day: 2,
         title: "2nd day",
-        location: "Hangzhou",
+        location: "Sapporo",
         highlight: "The train ride to Interlaken",
         description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
-
         images: [
           {
-            alt: "morning fitcheck",
-            src: china_day2_us,
-            imageKey: "china/day-2/us"
+            alt: "good morning",
+            src: japan2_day2_xn,
+            imageKey: "japan2/day-2/xn"
           },
           {
-            alt: "light breakfast",
-            src: china_day2_breakfast,
-            imageKey: "china/day-2/breakfast"
+            alt: "gachaa~",
+            src: japan2_day2_gacha,
+            imageKey: "japan2/day-2/gacha"
           },
           {
-            alt: "beautiful spot",
-            src: china_day2_spot,
-            imageKey: "china/day-2/spot"
+            alt: "what a delicious meal",
+            src: japan2_day2_lunch,
+            imageKey: "japan2/day-2/lunch"
           },
           {
-            alt: "another beautiful scene",
-            src: china_day2_scene,
-            imageKey: "china/day-2/scene",
+            alt: "xmas vibe",
+            src: japan2_day2_xmas,
+            imageKey: "japan2/day-2/xmas",
             featured: true
           },
           {
-            alt: "westlake~",
-            src: china_day2_westlake,
-            imageKey: "china/day-2/westlake"
+            alt: "checkinn",
+            src: japan2_day2_us,
+            imageKey: "japan2/day-2/us"
           },
           {
-            alt: "another one!",
-            src: china_day2_random,
-            imageKey: "china/day-2/random",
-            featured: true
+            alt: "captured the moment",
+            src: japan2_day2_bae,
+            imageKey: "japan2/day-2/bae"
           },
           {
-            alt: "hi there!",
-            src: china_day2_scene2,
-            imageKey: "china/day-2/scene2"
+            alt: "sushi",
+            src: japan2_day2_sushi,
+            imageKey: "japan2/day-2/sushi"
           },
           {
-            alt: "our dinner @greentea longjing",
-            src: china_day2_greentea,
-            imageKey: "china/day-2/greentea"
+            alt: "checkinn",
+            src: japan2_day2_us2,
+            imageKey: "japan2/day-2/us2"
           },
           {
-            alt: "another view of westlake~",
-            src: china_day2_random2,
-            imageKey: "china/day-2/random2"
+            alt: "get ready for da best miso ramen ever tasted",
+            src: japan2_day2_queue,
+            imageKey: "japan2/day-2/queue"
           },
           {
-            alt: "bae @westlake",
-            src: china_day2_bae,
-            imageKey: "china/day-2/bae"
+            alt: "best miso ramen",
+            src: japan2_day2_ramen,
+            imageKey: "japan2/day-2/ramen"
           }
         ]
       },
@@ -1091,61 +1217,61 @@ export const destinations = [
       {
         day: 3,
         title: "3rd day",
-        location: "Hangzhou",
+        location: "Sapporo",
         highlight: "The train ride to Interlaken",
         description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
 
         images: [
           {
-            alt: "what a scene",
-            src: china_day3_scene,
-            imageKey: "china/day-3/scene",
+            alt: "a quick breakfast on train",
+            src: japan2_day3_breakfast,
+            imageKey: "japan2/day-3/breakfast"
+          },
+          {
+            alt: "chill",
+            src: japan2_day3_xn,
+            imageKey: "japan2/day-3/xn"
+          },
+          {
+            alt: "this snow vibe",
+            src: japan2_day3_station,
+            imageKey: "japan2/day-3/station",
             featured: true
           },
           {
-            alt: "good morning!",
-            src: china_day3_bae,
-            imageKey: "china/day-3/bae"
+            alt: "checkinn",
+            src: japan2_day3_bae,
+            imageKey: "japan2/day-3/bae"
           },
           {
-            alt: "checkin..",
-            src: china_day3_checkin,
-            imageKey: "china/day-3/checkin"
+            alt: "vending machines",
+            src: japan2_day3_vending,
+            imageKey: "japan2/day-3/vending"
           },
           {
-            alt: "xn @random place",
-            src: china_day3_xn,
-            imageKey: "china/day-3/xn"
+            alt: "bus coated by snow",
+            src: japan2_day3_bus,
+            imageKey: "japan2/day-3/bus"
           },
           {
             alt: "random photograph",
-            src: china_day3_random,
-            imageKey: "china/day-3/random"
+            src: japan2_day3_night,
+            imageKey: "japan2/day-3/night"
           },
           {
-            alt: "our snackk",
-            src: china_day3_snack,
-            imageKey: "china/day-3/snack"
+            alt: "random shop for dinner",
+            src: japan2_day3_dinner,
+            imageKey: "japan2/day-3/dinner"
           },
           {
-            alt: "hangzhou~",
-            src: china_day3_hangzhou,
-            imageKey: "china/day-3/hangzhou"
+            alt: "us again @tower",
+            src: japan2_day3_us,
+            imageKey: "japan2/day-3/us"
           },
           {
-            alt: "us again",
-            src: china_day3_us,
-            imageKey: "china/day-3/us"
-          },
-          {
-            alt: "stuffed",
-            src: china_day3_dinner,
-            imageKey: "china/day-3/dinner"
-          },
-          {
-            alt: "donutt..",
-            src: china_day3_donut,
-            imageKey: "china/day-3/donut"
+            alt: "2 times in a row",
+            src: japan2_day3_ramen,
+            imageKey: "japan2/day-3/ramen"
           }
         ]
       },
@@ -1153,61 +1279,60 @@ export const destinations = [
       {
         day: 4,
         title: "4th day",
-        location: "Hangzhou",
+        location: "Sapporo",
         highlight: "The train ride to Interlaken",
-        description:"Journey to the chinaese Alps for a snowy adventure. Witness snow monkeys in onsen, explore historic Zenko-ji Temple under a soft snowfall, and savor warming Shinshu soba. The pristine white landscapes offer breathtaking winter beauty.",
+        description:"Journey to the japan2ese Alps for a snowy adventure. Witness snow monkeys in onsen, explore historic Zenko-ji Temple under a soft snowfall, and savor warming Shinshu soba. The pristine white landscapes offer breathtaking winter beauty.",
         images: [
           {
-            alt: "like a movie scene",
-            src: china_day4_scene,
-            imageKey: "china/day-4/scene",
+            alt: "snow",
+            src: japan2_day4_random,
+            imageKey: "japan2/day-4/random"
+          },
+          {
+            alt: "seafood market",
+            src: japan2_day4_crab,
+            imageKey: "japan2/day-4/crab"
+          },
+          {
+            alt: "what a hill",
+            src: japan2_day4_hill,
+            imageKey: "japan2/day-4/hill"
+          },
+          {
+            alt: "say hi in Otaru",
+            src: japan2_day4_bae,
+            imageKey: "japan2/day-4/bae",
             featured: true
           },
           {
-            alt: "morningg~",
-            src: china_day4_street,
-            imageKey: "china/day-4/street"
+            alt: "souvenir",
+            src: japan2_day4_otaru,
+            imageKey: "japan2/day-4/otaru"
           },
           {
-            alt: "fitcheck again",
-            src: china_day4_us,
-            imageKey: "china/day-4/us"
+            alt: "another xmas vibe",
+            src: japan2_day4_xmas,
+            imageKey: "japan2/day-4/xmas"
           },
           {
-            alt: "checkin spot",
-            src: china_day4_scene2,
-            imageKey: "china/day-4/scene2"
+            alt: "sapporo signature",
+            src: japan2_day4_sapporo,
+            imageKey: "japan2/day-4/sapporo"
           },
           {
-            alt: "casual~",
-            src: china_day4_bae,
-            imageKey: "china/day-4/bae"
+            alt: "want some beer..",
+            src: japan2_day4_beer,
+            imageKey: "japan2/day-4/beer"
           },
           {
-            alt: "great spot",
-            src: china_day4_xn,
-            imageKey: "china/day-4/xn"
+            alt: "random photograph",
+            src: japan2_day4_bus,
+            imageKey: "japan2/day-4/bus"
           },
           {
-            alt: "last meal then goin' to city",
-            src: china_day4_lunch,
-            imageKey: "china/day-4/lunch"
-          },
-          {
-            alt: "here goes the bund",
-            src: china_day4_bund,
-            imageKey: "china/day-4/bund",
-            featured: true
-          },
-          {
-            alt: "checkin @thebund",
-            src: china_day4_bae2,
-            imageKey: "china/day-4/bae2"
-          },
-          {
-            alt: "delicious~",
-            src: china_day4_crab,
-            imageKey: "china/day-4/crab"
+            alt: "checkinn again",
+            src: japan2_day4_us,
+            imageKey: "japan2/day-4/us"
           }
         ]
       },
@@ -1215,60 +1340,59 @@ export const destinations = [
       {
         day: 5,
         title: "5th day",
-        location: "Shanghai",
+        location: "Sapporo",
         highlight: "The train ride to Interlaken",
         description: "Discover Kanazawa's winter elegance. Marvel at Kenrokuen Garden's snow-supported pines, wander through the historic Higashi Chaya District dusted with snow, and appreciate vibrant Kutani ware. Warm up with regional black curry in this quieter season.",
         images: [
           {
-            alt: "checkin spot#1",
-            src: china_day5_us,
-            imageKey: "china/day-5/us"
+            alt: "just beautiful to look at",
+            src: japan2_day5_random2,
+            imageKey: "japan2/day-5/random2"
           },
           {
             alt: "a bit salty..",
-            src: china_day5_breakfast,
-            imageKey: "china/day-5/breakfast"
+            src: japan2_day5_breakfast,
+            imageKey: "japan2/day-5/breakfast"
           },
           {
-            alt: "how cool ^-^",
-            src: china_day5_random,
-            imageKey: "china/day-5/random",
-            featured: true
+            alt: "chill",
+            src: japan2_day5_mountain,
+            imageKey: "japan2/day-5/mountain"
           },
           {
             alt: "right on da street",
-            src: china_day5_bae,
-            imageKey: "china/day-5/bae"
+            src: japan2_day5_bae2,
+            imageKey: "japan2/day-5/bae2"
           },
           {
             alt: "random photograph",
-            src: china_day5_random2,
-            imageKey: "china/day-5/random2"
+            src: japan2_day5_random,
+            imageKey: "japan2/day-5/random"
           },
           {
-            alt: "delicious~",
-            src: china_day5_dinner,
-            imageKey: "china/day-5/dinner"
+            alt: "koibito park",
+            src: japan2_day5_koibito,
+            imageKey: "japan2/day-5/koibito"
           },
           {
-            alt: "there's always a better one",
-            src: china_day5_magnet,
-            imageKey: "china/day-5/magnet",
+            alt: "it's lovely here",
+            src: japan2_day5_bae,
+            imageKey: "japan2/day-5/bae",
           },
           {
-            alt: "hii~",
-            src: china_day5_us2,
-            imageKey: "china/day-5/us2"
+            alt: "lunch before movin' to Tokyo",
+            src: japan2_day5_lunch,
+            imageKey: "japan2/day-5/lunch"
           },
           {
-            alt: "randomly catched it",
-            src: china_day5_scene,
-            imageKey: "china/day-5/scene"
+            alt: "tsukemen..",
+            src: japan2_day5_ramen,
+            imageKey: "japan2/day-5/ramen"
           },
           {
             alt: "midnight food~",
-            src: china_day5_grill,
-            imageKey: "china/day-5/grill"
+            src: japan2_day5_midnight,
+            imageKey: "japan2/day-5/midnight"
           }
         ]
       },
@@ -1276,61 +1400,60 @@ export const destinations = [
       {
         day: 6,
         title: "6th day",
-        location: "Shanghai",
+        location: "Tokyo",
         highlight: "The train ride to Interlaken",
         description: "Explore Takayama's picturesque old town, Sanmachi Suji, under a layer of snow. Visit the Takayama Jinya and sample local sake for warmth. Enjoy hearty Hida beef stew amidst the traditional charm of a winter setting.",
         images: [
           {
-            alt: "check supermarket out",
-            src: china_day6_market,
-            imageKey: "china/day-6/market"
+            alt: "random photograph",
+            src: japan2_day6_random2,
+            imageKey: "japan2/day-6/random2"
           },
           {
-            alt: "random mee shop but awesome",
-            src: china_day6_breakfast,
-            imageKey: "china/day-6/breakfast"
+            alt: "saw this before",
+            src: japan2_day6_tokyo,
+            imageKey: "japan2/day-6/tokyo"
           },
           {
-            alt: "photo spot then",
-            src: china_day6_bae,
-            imageKey: "china/day-6/bae",
-            featured: true
+            alt: "unagi",
+            src: japan2_day6_breakfast,
+            imageKey: "japan2/day-6/breakfast"
           },
           {
-            alt: "xn @the bund",
-            src: china_day6_xn,
-            imageKey: "china/day-6/xn"
+            alt: "kimono",
+            src: japan2_day6_bae,
+            imageKey: "japan2/day-6/bae"
           },
           {
             alt: "random photograph",
-            src: china_day6_random,
-            imageKey: "china/day-6/random"
-          },
-          {
-            alt: "checkinn~",
-            src: china_day6_us,
-            imageKey: "china/day-6/us"
-          },
-          {
-            alt: "another random photograph",
-            src: china_day6_bund,
-            imageKey: "china/day-6/bund",
+            src: japan2_day6_random,
+            imageKey: "japan2/day-6/random",
             featured: true
           },
           {
-            alt: "captured the moment",
-            src: china_day6_street,
-            imageKey: "china/day-6/street"
+            alt: "fitcheck",
+            src: japan2_day6_us,
+            imageKey: "japan2/day-6/us"
           },
           {
-            alt: "good meal~",
-            src: china_day6_dinner,
-            imageKey: "china/day-6/dinner"
+            alt: "chill",
+            src: japan2_day6_xn,
+            imageKey: "japan2/day-6/xn"
           },
           {
-            alt: "another photo spot",
-            src: china_day6_night,
-            imageKey: "china/day-6/night"
+            alt: "good matcha here",
+            src: japan2_day6_matcha,
+            imageKey: "japan2/day-6/matcha"
+          },
+          {
+            alt: "xmas vibe in tokyo",
+            src: japan2_day6_xmas,
+            imageKey: "japan2/day-6/xmas"
+          },
+          {
+            alt: "still tsukemen",
+            src: japan2_day6_ramen,
+            imageKey: "japan2/day-6/ramen"
           }
         ]
       },
@@ -1338,56 +1461,123 @@ export const destinations = [
       {
         day: 7,
         title: "7th day",
-        location: "Shanghai",
+        location: "Tokyo",
         highlight: "The train ride to Interlaken",
         description: "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
         images: [
           {
-            alt: "good morning~",
-            src: china_day7_bae,
-            imageKey: "china/day-7/bae"
+            alt: "random photograph #1",
+            src: japan2_day7_random,
+            imageKey: "japan2/day-7/random"
           },
           {
-            alt: "popmart",
-            src: china_day7_popmart,
-            imageKey: "china/day-7/popmart"
+            alt: "breakfast",
+            src: japan2_day7_breakfast,
+            imageKey: "japan2/day-7/breakfast"
           },
           {
-            alt: "like a movie scene again~",
-            src: china_day7_scene2,
-            imageKey: "china/day-7/scene2",
+            alt: "what a scene",
+            src: japan2_day7_scene,
+            imageKey: "japan2/day-7/scene"
+          },
+          {
+            alt: "cat",
+            src: japan2_day7_cat,
+            imageKey: "japan2/day-7/cat"
+          },
+          {
+            alt: "vibe",
+            src: japan2_day7_xn,
+            imageKey: "japan2/day-7/xn",
             featured: true
           },
           {
-            alt: "what great place to explore",
-            src: china_day7_xn,
-            imageKey: "china/day-7/xn"
+            alt: "right on da street",
+            src: japan2_day7_bae,
+            imageKey: "japan2/day-7/bae"
           },
           {
-            alt: "another scene again~",
-            src: china_day7_scene,
-            imageKey: "china/day-7/scene"
+            alt: "cola",
+            src: japan2_day7_cola,
+            imageKey: "japan2/day-7/cola"
           },
           {
-            alt: "us regretting not to come here earlier~",
-            src: china_day7_us,
-            imageKey: "china/day-7/us"
+            alt: "photobooth",
+            src: japan2_day7_photo,
+            imageKey: "japan2/day-7/photo"
           },
           {
-            alt: "westbund is cool",
-            src: china_day7_random,
-            imageKey: "china/day-7/random"
+            alt: "imdonut",
+            src: japan2_day7_imdonut,
+            imageKey: "japan2/day-7/imdonut"
           },
           {
-            alt: "croissant b4 goin' to airport..",
-            src: china_day7_bread,
-            imageKey: "china/day-7/bread"
+            alt: "our nomikai",
+            src: japan2_day7_dinner,
+            imageKey: "japan2/day-7/dinner"
+          }
+        ]
+      },
+
+      {
+        day: 8,
+        title: "8th day",
+        location: "Tokyo",
+        highlight: "The train ride to Interlaken",
+        description: "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+        images: [
+          {
+            alt: "imdonut first",
+            src: japan2_day8_imdonut,
+            imageKey: "japan2/day-8/imdonut"
+          },
+          {
+            alt: "cool",
+            src: japan2_day8_bae,
+            imageKey: "japan2/day-8/bae"
+          },
+          {
+            alt: "shiba",
+            src: japan2_day8_shiba,
+            imageKey: "japan2/day-8/shiba",
+            featured: true
+          },
+          {
+            alt: "this ramen is good",
+            src: japan2_day8_ramen,
+            imageKey: "japan2/day-8/ramen"
+          },
+          {
+            alt: "xmas vibe",
+            src: japan2_day8_xmas,
+            imageKey: "japan2/day-8/xmas"
+          },
+          {
+            alt: "checkinn",
+            src: japan2_day8_us,
+            imageKey: "japan2/day-8/us"
+          },
+          {
+            alt: "our snack",
+            src: japan2_day8_snack,
+            imageKey: "japan2/day-8/snack"
+          },
+          {
+            alt: "fish broth ramen",
+            src: japan2_day8_dinner,
+            imageKey: "japan2/day-8/dinner"
+          },
+          {
+            alt: "meal before boarding",
+            src: japan2_day8_meal,
+            imageKey: "japan2/day-8/meal"
           }
         ]
       }
     ]
   },
 
+  //Bali
   {
     id: "bali",
     name: "Bali",
@@ -1400,56 +1590,56 @@ export const destinations = [
       {
         day: 1,
         title: "1st day",
-        location: "Da Nang",
+        location: "Bali",
         description:
           "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
 
         images: [
           {
-            alt: "on da plane~",
-            src: danang_day1_random2,
-            imageKey: "danang/day-1/random2"
+            alt: "gas station is rare here",
+            src: bali_day1_gasstation,
+            imageKey: "bali/day-1/gasstation"
           },
           {
-            alt: "great local restaurant",
-            src: danang_day1_random,
-            imageKey: "danang/day-1/random"
+            alt: "signature",
+            src: bali_day1_signature,
+            imageKey: "bali/day-1/signature"
           },
           {
-            alt: "good food~",
-            src: danang_day1_dinner,
-            imageKey: "danang/day-1/dinner"
-          },
-          {
-            alt: "captured the moment",
-            src: danang_day1_bae,
-            imageKey: "danang/day-1/bae"
-          },
-          {
-            alt: "bun cha ca",
-            src: danang_day1_breakfast,
-            imageKey: "danang/day-1/breakfast"
-          },
-          {
-            alt: "1st ocean photo",
-            src: danang_day1_scene,
-            imageKey: "danang/day-1/scene",
+            alt: "hello",
+            src: bali_day1_bae,
+            imageKey: "bali/day-1/bae",
             featured: true
           },
           {
-            alt: "us @photo spot",
-            src: danang_day1_us,
-            imageKey: "danang/day-1/us"
+            alt: "starbucks vibe",
+            src: bali_day1_starbucks,
+            imageKey: "bali/day-1/starbucks"
           },
           {
-            alt: "my family ~luv",
-            src: danang_day1_family,
-            imageKey: "danang/day-1/family"
+            alt: "hello",
+            src: bali_day1_xn,
+            imageKey: "bali/day-1/xn"
           },
           {
-            alt: "bun muc",
-            src: danang_day1_lunch,
-            imageKey: "danang/day-1/lunch"
+            alt: "huge portion tho",
+            src: bali_day1_meal,
+            imageKey: "bali/day-1/meal"
+          },
+          {
+            alt: "random photograph",
+            src: bali_day1_random,
+            imageKey: "bali/day-1/random"
+          },
+          {
+            alt: "show ticket",
+            src: bali_day1_nightshow,
+            imageKey: "bali/day-1/nightshow"
+          },
+          {
+            alt: "great show",
+            src: bali_day1_show,
+            imageKey: "bali/day-1/show"
           }
         ]
       },
@@ -1457,50 +1647,60 @@ export const destinations = [
       {
         day: 2,
         title: "2nd day",
-        location: "danang",
-        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+        location: "bali",
+        description: "Immerse yourself in the exotic allure of bali, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
 
         images: [
           {
+            alt: "good vibe",
+            src: bali_day2_morning,
+            imageKey: "bali/day-2/morning"
+          },
+          {
+            alt: "our breakfast",
+            src: bali_day2_breakfast,
+            imageKey: "bali/day-2/breakfast"
+          },
+          {
             alt: "another photograph",
-            src: danang_day2_random,
-            imageKey: "danang/day-2/random",
+            src: bali_day2_random,
+            imageKey: "bali/day-2/random",
             featured: true
           },
           {
-            alt: "ocean vibee~",
-            src: danang_day2_bae,
-            imageKey: "danang/day-2/bae"
+            alt: "hello",
+            src: bali_day2_bae,
+            imageKey: "bali/day-2/bae"
           },
           {
-            alt: "food on da sea",
-            src: danang_day2_seafood,
-            imageKey: "danang/day-2/seafood"
+            alt: "our lunch",
+            src: bali_day2_lunch,
+            imageKey: "bali/day-2/lunch"
           },
           {
-            alt: "my family ~luv",
-            src: danang_day2_family,
-            imageKey: "danang/day-2/family"
+            alt: "sunset at beach club",
+            src: bali_day2_sunset,
+            imageKey: "bali/day-2/sunset"
           },
           {
-            alt: "random photograph",
-            src: danang_day2_random2,
-            imageKey: "danang/day-2/random2"
+            alt: "we catched sunset",
+            src: bali_day2_xn,
+            imageKey: "bali/day-2/xn"
           },
           {
-            alt: "cau rong",
-            src: danang_day2_bridge,
-            imageKey: "danang/day-2/bridge"
+            alt: "chill vibe",
+            src: bali_day2_night,
+            imageKey: "bali/day-2/night"
           },
           {
-            alt: "checkinn~",
-            src: danang_day2_us,
-            imageKey: "danang/day-2/us"
+            alt: "our dinner",
+            src: bali_day2_dinner,
+            imageKey: "bali/day-2/dinner"
           },
           {
-            alt: "lovely~",
-            src: danang_day2_love,
-            imageKey: "danang/day-2/love"
+            alt: "we need something soup after drink",
+            src: bali_day2_nightfood,
+            imageKey: "bali/day-2/nightfood"
           }
         ]
       },
@@ -1508,60 +1708,55 @@ export const destinations = [
       {
         day: 3,
         title: "3rd day",
-        location: "hoian",
-        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+        location: "Bali",
+        description: "Immerse yourself in the exotic allure of bali, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
 
         images: [
           {
-            alt: "breakfast in market",
-            src: danang_day3_breakfast,
-            imageKey: "danang/day-3/breakfast"
+            alt: "hello",
+            src: bali_day3_xn,
+            imageKey: "bali/day-3/xn"
           },
           {
-            alt: "cong chua ba mu",
-            src: danang_day3_hoian,
-            imageKey: "danang/day-3/hoian",
+            alt: "breakfast",
+            src: bali_day3_breakfast,
+            imageKey: "bali/day-3/breakfast"
+          },
+          {
+            alt: "so chill",
+            src: bali_day3_house,
+            imageKey: "bali/day-3/house",
             featured: true
           },
           {
-            alt: "chao ngheu co gio~",
-            src: danang_day3_chao,
-            imageKey: "danang/day-3/chao"
+            alt: "our lunch",
+            src: bali_day3_bae,
+            imageKey: "bali/day-3/bae"
           },
           {
-            alt: "banh mi~",
-            src: danang_day3_banhmi,
-            imageKey: "danang/day-3/banhmi"
+            alt: "random photograph",
+            src: bali_day3_random,
+            imageKey: "bali/day-3/random"
           },
           {
-            alt: "checkinn",
-            src: danang_day3_love,
-            imageKey: "danang/day-3/love"
+            alt: "hello",
+            src: bali_day3_sea,
+            imageKey: "bali/day-3/sea"
           },
           {
-            alt: "good vibee",
-            src: danang_day3_bae,
-            imageKey: "danang/day-3/bae"
+            alt: "another random photograph",
+            src: bali_day3_scene,
+            imageKey: "bali/day-3/scene"
           },
           {
-            alt: "my family ~luv",
-            src: danang_day3_family,
-            imageKey: "danang/day-3/family"
-          },
-          {
-            alt: "mot hoi an",
-            src: danang_day3_mot,
-            imageKey: "danang/day-3/mot"
+            alt: "brunch",
+            src: bali_day3_brunch,
+            imageKey: "bali/day-3/brunch"
           },
           {
             alt: "chill sunset",
-            src: danang_day3_bae2,
-            imageKey: "danang/day-3/bae2"
-          },
-          {
-            alt: "what a photograph",
-            src: danang_day3_scene,
-            imageKey: "danang/day-3/scene"
+            src: bali_day3_sunset,
+            imageKey: "bali/day-3/sunset"
           }
         ]
       },
@@ -1569,63 +1764,69 @@ export const destinations = [
       {
         day: 4,
         title: "4th day",
-        location: "danang",
-        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+        location: "Bali",
+        description: "Immerse yourself in the exotic allure of bali, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
 
         images: [
           {
-            alt: "my an beach",
-            src: danang_day4_beach,
-            imageKey: "danang/day-4/beach",
+            alt: "beach vibe #1",
+            src: bali_day4_bae,
+            imageKey: "bali/day-4/bae"
+          },
+          {
+            alt: "beach vibe #2",
+            src: bali_day4_breakfast,
+            imageKey: "bali/day-4/breakfast"
+          },
+          {
+            alt: "helicopter",
+            src: bali_day4_helicopter,
+            imageKey: "bali/day-4/helicopter"
+          },
+          {
+            alt: "chill vibe",
+            src: bali_day4_vibe,
+            imageKey: "bali/day-4/vibe"
+          },
+          {
+            alt: "a monkey attacked me",
+            src: bali_day4_xn,
+            imageKey: "bali/day-4/xn",
             featured: true
           },
           {
-            alt: "ocean scene",
-            src: danang_day4_scene,
-            imageKey: "danang/day-4/scene"
+            alt: "bae w ocean",
+            src: bali_day4_ocean,
+            imageKey: "bali/day-4/ocean"
           },
           {
-            alt: "beach vibe",
-            src: danang_day4_vibe,
-            imageKey: "danang/day-4/vibe"
+            alt: "our flight got delayed",
+            src: bali_day4_breakfast2,
+            imageKey: "bali/day-4/breakfast2"
           },
           {
-            alt: "an com nha",
-            src: danang_day4_lunch,
-            imageKey: "danang/day-4/lunch"
+            alt: "best tiramisu ever tasted",
+            src: bali_day4_tiramisu,
+            imageKey: "bali/day-4/tiramisu"
           },
           {
-            alt: "lil bro",
-            src: danang_day4_lilbro,
-            imageKey: "danang/day-4/lilbro"
-          },
-          {
-            alt: "bae @ocean",
-            src: danang_day4_ocean,
-            imageKey: "danang/day-4/ocean"
-          },
-          {
-            alt: "hoian~",
-            src: danang_day4_hoian,
-            imageKey: "danang/day-4/hoian"
-          },
-          {
-            alt: "cao lau mi quang meal",
-            src: danang_day4_dinner,
-            imageKey: "danang/day-4/dinner"
+            alt: "lunch before heading to airport",
+            src: bali_day4_lunch,
+            imageKey: "bali/day-4/lunch"
           }
         ]
       }
     ]
   },
 
+  //Japan
   {
     id: "japan",
     name: "Japan",
     date: "23.01.25 - 02.02.25",
     location: "Tokyo - Nagano - Kanazawa - Takayama - Shirakawago - Kyoto - Osaka",
     cover: japan_day1_tokyo_skytree,
-    flag: japan_flag,
+    flag: jp_flag,
     description: "Snow-Kissed Serenity: Unveiling Japan's Winter Wonders",
     days: [
       {
@@ -2069,14 +2270,14 @@ export const destinations = [
     ]
   },
 
-
+  //Hongkong
   {
     id: "hongkong",
     name: "Hong Kong",
     date: "26.04.24 - 30.04.24",
     location: "Victoria Habour - Hongkong Observation Wheel - Lan Kwai Fong - Disneyland - 1881 Heritage",
     cover: hongkong_day2_dingding,
-    flag: hongkong_flag,
+    flag: hk_flag,
     description: "Skyscraper Spectacle & Dim Sum Delights",
 
     days: [
@@ -2349,7 +2550,7 @@ export const destinations = [
     ]
   },
 
-
+  //Thai
   {
     id: "thailand",
     name: "Thailand",
