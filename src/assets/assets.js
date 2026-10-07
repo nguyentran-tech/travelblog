@@ -954,6 +954,672 @@ export const destinations = [
   },
 
   {
+    id: "japan2",
+    name: "Japan",
+    date: "06.12.25 - 14.12.25",
+    location: "Sapporo - Tokyo",
+    cover: japan2_day5_random2,
+    flag: jp_flag,
+    description: "Snow-Kissed Serenity: Unveiling Japan's Winter Wonders",
+    days: [
+      {
+        day: 1,
+        title: "1st day",
+        location: "Sapporo",
+        highlight: "The train ride to Interlaken",
+        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+        images: [
+          {
+            alt: "train to city",
+            src: china_day1_hotel,
+            imageKey: "china/day-1/hotel"
+          },
+          {
+            alt: "random photograph",
+            src: china_day1_random,
+            imageKey: "china/day-1/random",
+            featured: true
+          },
+          {
+            alt: "our fitcheck spot",
+            src: china_day1_spot,
+            imageKey: "china/day-1/spot"
+          },
+          {
+            alt: "street near hotel",
+            src: china_day1_bae,
+            imageKey: "china/day-1/bae"
+          },
+          {
+            alt: "us @checkin spot",
+            src: china_day1_us,
+            imageKey: "china/day-1/us"
+          },
+          {
+            alt: "beautiful street",
+            src: china_day1_road,
+            imageKey: "china/day-1/road",
+            featured: true
+          },
+          {
+            alt: "our 1st dinner",
+            src: china_day1_lunch,
+            imageKey: "china/day-1/lunch"
+          },
+          {
+            alt: "xn @heytea",
+            src: china_day1_xn,
+            imageKey: "china/day-1/xn"
+          },
+          {
+            alt: "our 1st heytea",
+            src: china_day1_heytea,
+            imageKey: "china/day-1/heytea",
+            featured: true
+          },
+          {
+            alt: "bread store",
+            src: china_day1_bread,
+            imageKey: "china/day-1/bread"
+          }
+        ]
+      },
+
+      {
+        day: 2,
+        title: "2nd day",
+        location: "Hangzhou",
+        highlight: "The train ride to Interlaken",
+        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+
+        images: [
+          {
+            alt: "morning fitcheck",
+            src: china_day2_us,
+            imageKey: "china/day-2/us"
+          },
+          {
+            alt: "light breakfast",
+            src: china_day2_breakfast,
+            imageKey: "china/day-2/breakfast"
+          },
+          {
+            alt: "beautiful spot",
+            src: china_day2_spot,
+            imageKey: "china/day-2/spot"
+          },
+          {
+            alt: "another beautiful scene",
+            src: china_day2_scene,
+            imageKey: "china/day-2/scene",
+            featured: true
+          },
+          {
+            alt: "westlake~",
+            src: china_day2_westlake,
+            imageKey: "china/day-2/westlake"
+          },
+          {
+            alt: "another one!",
+            src: china_day2_random,
+            imageKey: "china/day-2/random",
+            featured: true
+          },
+          {
+            alt: "hi there!",
+            src: china_day2_scene2,
+            imageKey: "china/day-2/scene2"
+          },
+          {
+            alt: "our dinner @greentea longjing",
+            src: china_day2_greentea,
+            imageKey: "china/day-2/greentea"
+          },
+          {
+            alt: "another view of westlake~",
+            src: china_day2_random2,
+            imageKey: "china/day-2/random2"
+          },
+          {
+            alt: "bae @westlake",
+            src: china_day2_bae,
+            imageKey: "china/day-2/bae"
+          }
+        ]
+      },
+
+      {
+        day: 3,
+        title: "3rd day",
+        location: "Hangzhou",
+        highlight: "The train ride to Interlaken",
+        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+
+        images: [
+          {
+            alt: "what a scene",
+            src: china_day3_scene,
+            imageKey: "china/day-3/scene",
+            featured: true
+          },
+          {
+            alt: "good morning!",
+            src: china_day3_bae,
+            imageKey: "china/day-3/bae"
+          },
+          {
+            alt: "checkin..",
+            src: china_day3_checkin,
+            imageKey: "china/day-3/checkin"
+          },
+          {
+            alt: "xn @random place",
+            src: china_day3_xn,
+            imageKey: "china/day-3/xn"
+          },
+          {
+            alt: "random photograph",
+            src: china_day3_random,
+            imageKey: "china/day-3/random"
+          },
+          {
+            alt: "our snackk",
+            src: china_day3_snack,
+            imageKey: "china/day-3/snack"
+          },
+          {
+            alt: "hangzhou~",
+            src: china_day3_hangzhou,
+            imageKey: "china/day-3/hangzhou"
+          },
+          {
+            alt: "us again",
+            src: china_day3_us,
+            imageKey: "china/day-3/us"
+          },
+          {
+            alt: "stuffed",
+            src: china_day3_dinner,
+            imageKey: "china/day-3/dinner"
+          },
+          {
+            alt: "donutt..",
+            src: china_day3_donut,
+            imageKey: "china/day-3/donut"
+          }
+        ]
+      },
+
+      {
+        day: 4,
+        title: "4th day",
+        location: "Hangzhou",
+        highlight: "The train ride to Interlaken",
+        description:"Journey to the chinaese Alps for a snowy adventure. Witness snow monkeys in onsen, explore historic Zenko-ji Temple under a soft snowfall, and savor warming Shinshu soba. The pristine white landscapes offer breathtaking winter beauty.",
+        images: [
+          {
+            alt: "like a movie scene",
+            src: china_day4_scene,
+            imageKey: "china/day-4/scene",
+            featured: true
+          },
+          {
+            alt: "morningg~",
+            src: china_day4_street,
+            imageKey: "china/day-4/street"
+          },
+          {
+            alt: "fitcheck again",
+            src: china_day4_us,
+            imageKey: "china/day-4/us"
+          },
+          {
+            alt: "checkin spot",
+            src: china_day4_scene2,
+            imageKey: "china/day-4/scene2"
+          },
+          {
+            alt: "casual~",
+            src: china_day4_bae,
+            imageKey: "china/day-4/bae"
+          },
+          {
+            alt: "great spot",
+            src: china_day4_xn,
+            imageKey: "china/day-4/xn"
+          },
+          {
+            alt: "last meal then goin' to city",
+            src: china_day4_lunch,
+            imageKey: "china/day-4/lunch"
+          },
+          {
+            alt: "here goes the bund",
+            src: china_day4_bund,
+            imageKey: "china/day-4/bund",
+            featured: true
+          },
+          {
+            alt: "checkin @thebund",
+            src: china_day4_bae2,
+            imageKey: "china/day-4/bae2"
+          },
+          {
+            alt: "delicious~",
+            src: china_day4_crab,
+            imageKey: "china/day-4/crab"
+          }
+        ]
+      },
+
+      {
+        day: 5,
+        title: "5th day",
+        location: "Shanghai",
+        highlight: "The train ride to Interlaken",
+        description: "Discover Kanazawa's winter elegance. Marvel at Kenrokuen Garden's snow-supported pines, wander through the historic Higashi Chaya District dusted with snow, and appreciate vibrant Kutani ware. Warm up with regional black curry in this quieter season.",
+        images: [
+          {
+            alt: "checkin spot#1",
+            src: china_day5_us,
+            imageKey: "china/day-5/us"
+          },
+          {
+            alt: "a bit salty..",
+            src: china_day5_breakfast,
+            imageKey: "china/day-5/breakfast"
+          },
+          {
+            alt: "how cool ^-^",
+            src: china_day5_random,
+            imageKey: "china/day-5/random",
+            featured: true
+          },
+          {
+            alt: "right on da street",
+            src: china_day5_bae,
+            imageKey: "china/day-5/bae"
+          },
+          {
+            alt: "random photograph",
+            src: china_day5_random2,
+            imageKey: "china/day-5/random2"
+          },
+          {
+            alt: "delicious~",
+            src: china_day5_dinner,
+            imageKey: "china/day-5/dinner"
+          },
+          {
+            alt: "there's always a better one",
+            src: china_day5_magnet,
+            imageKey: "china/day-5/magnet",
+          },
+          {
+            alt: "hii~",
+            src: china_day5_us2,
+            imageKey: "china/day-5/us2"
+          },
+          {
+            alt: "randomly catched it",
+            src: china_day5_scene,
+            imageKey: "china/day-5/scene"
+          },
+          {
+            alt: "midnight food~",
+            src: china_day5_grill,
+            imageKey: "china/day-5/grill"
+          }
+        ]
+      },
+
+      {
+        day: 6,
+        title: "6th day",
+        location: "Shanghai",
+        highlight: "The train ride to Interlaken",
+        description: "Explore Takayama's picturesque old town, Sanmachi Suji, under a layer of snow. Visit the Takayama Jinya and sample local sake for warmth. Enjoy hearty Hida beef stew amidst the traditional charm of a winter setting.",
+        images: [
+          {
+            alt: "check supermarket out",
+            src: china_day6_market,
+            imageKey: "china/day-6/market"
+          },
+          {
+            alt: "random mee shop but awesome",
+            src: china_day6_breakfast,
+            imageKey: "china/day-6/breakfast"
+          },
+          {
+            alt: "photo spot then",
+            src: china_day6_bae,
+            imageKey: "china/day-6/bae",
+            featured: true
+          },
+          {
+            alt: "xn @the bund",
+            src: china_day6_xn,
+            imageKey: "china/day-6/xn"
+          },
+          {
+            alt: "random photograph",
+            src: china_day6_random,
+            imageKey: "china/day-6/random"
+          },
+          {
+            alt: "checkinn~",
+            src: china_day6_us,
+            imageKey: "china/day-6/us"
+          },
+          {
+            alt: "another random photograph",
+            src: china_day6_bund,
+            imageKey: "china/day-6/bund",
+            featured: true
+          },
+          {
+            alt: "captured the moment",
+            src: china_day6_street,
+            imageKey: "china/day-6/street"
+          },
+          {
+            alt: "good meal~",
+            src: china_day6_dinner,
+            imageKey: "china/day-6/dinner"
+          },
+          {
+            alt: "another photo spot",
+            src: china_day6_night,
+            imageKey: "china/day-6/night"
+          }
+        ]
+      },
+
+      {
+        day: 7,
+        title: "7th day",
+        location: "Shanghai",
+        highlight: "The train ride to Interlaken",
+        description: "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+        images: [
+          {
+            alt: "good morning~",
+            src: china_day7_bae,
+            imageKey: "china/day-7/bae"
+          },
+          {
+            alt: "popmart",
+            src: china_day7_popmart,
+            imageKey: "china/day-7/popmart"
+          },
+          {
+            alt: "like a movie scene again~",
+            src: china_day7_scene2,
+            imageKey: "china/day-7/scene2",
+            featured: true
+          },
+          {
+            alt: "what great place to explore",
+            src: china_day7_xn,
+            imageKey: "china/day-7/xn"
+          },
+          {
+            alt: "another scene again~",
+            src: china_day7_scene,
+            imageKey: "china/day-7/scene"
+          },
+          {
+            alt: "us regretting not to come here earlier~",
+            src: china_day7_us,
+            imageKey: "china/day-7/us"
+          },
+          {
+            alt: "westbund is cool",
+            src: china_day7_random,
+            imageKey: "china/day-7/random"
+          },
+          {
+            alt: "croissant b4 goin' to airport..",
+            src: china_day7_bread,
+            imageKey: "china/day-7/bread"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    id: "bali",
+    name: "Bali",
+    date: "30.08.25 - 03.09.25",
+    location: "Bali",
+    cover: bali_day3_scene,
+    flag: indo_flag,
+    description: "Ocean & Family Time",
+    days: [
+      {
+        day: 1,
+        title: "1st day",
+        location: "Da Nang",
+        description:
+          "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+
+        images: [
+          {
+            alt: "on da plane~",
+            src: danang_day1_random2,
+            imageKey: "danang/day-1/random2"
+          },
+          {
+            alt: "great local restaurant",
+            src: danang_day1_random,
+            imageKey: "danang/day-1/random"
+          },
+          {
+            alt: "good food~",
+            src: danang_day1_dinner,
+            imageKey: "danang/day-1/dinner"
+          },
+          {
+            alt: "captured the moment",
+            src: danang_day1_bae,
+            imageKey: "danang/day-1/bae"
+          },
+          {
+            alt: "bun cha ca",
+            src: danang_day1_breakfast,
+            imageKey: "danang/day-1/breakfast"
+          },
+          {
+            alt: "1st ocean photo",
+            src: danang_day1_scene,
+            imageKey: "danang/day-1/scene",
+            featured: true
+          },
+          {
+            alt: "us @photo spot",
+            src: danang_day1_us,
+            imageKey: "danang/day-1/us"
+          },
+          {
+            alt: "my family ~luv",
+            src: danang_day1_family,
+            imageKey: "danang/day-1/family"
+          },
+          {
+            alt: "bun muc",
+            src: danang_day1_lunch,
+            imageKey: "danang/day-1/lunch"
+          }
+        ]
+      },
+
+      {
+        day: 2,
+        title: "2nd day",
+        location: "danang",
+        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+
+        images: [
+          {
+            alt: "another photograph",
+            src: danang_day2_random,
+            imageKey: "danang/day-2/random",
+            featured: true
+          },
+          {
+            alt: "ocean vibee~",
+            src: danang_day2_bae,
+            imageKey: "danang/day-2/bae"
+          },
+          {
+            alt: "food on da sea",
+            src: danang_day2_seafood,
+            imageKey: "danang/day-2/seafood"
+          },
+          {
+            alt: "my family ~luv",
+            src: danang_day2_family,
+            imageKey: "danang/day-2/family"
+          },
+          {
+            alt: "random photograph",
+            src: danang_day2_random2,
+            imageKey: "danang/day-2/random2"
+          },
+          {
+            alt: "cau rong",
+            src: danang_day2_bridge,
+            imageKey: "danang/day-2/bridge"
+          },
+          {
+            alt: "checkinn~",
+            src: danang_day2_us,
+            imageKey: "danang/day-2/us"
+          },
+          {
+            alt: "lovely~",
+            src: danang_day2_love,
+            imageKey: "danang/day-2/love"
+          }
+        ]
+      },
+
+      {
+        day: 3,
+        title: "3rd day",
+        location: "hoian",
+        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+
+        images: [
+          {
+            alt: "breakfast in market",
+            src: danang_day3_breakfast,
+            imageKey: "danang/day-3/breakfast"
+          },
+          {
+            alt: "cong chua ba mu",
+            src: danang_day3_hoian,
+            imageKey: "danang/day-3/hoian",
+            featured: true
+          },
+          {
+            alt: "chao ngheu co gio~",
+            src: danang_day3_chao,
+            imageKey: "danang/day-3/chao"
+          },
+          {
+            alt: "banh mi~",
+            src: danang_day3_banhmi,
+            imageKey: "danang/day-3/banhmi"
+          },
+          {
+            alt: "checkinn",
+            src: danang_day3_love,
+            imageKey: "danang/day-3/love"
+          },
+          {
+            alt: "good vibee",
+            src: danang_day3_bae,
+            imageKey: "danang/day-3/bae"
+          },
+          {
+            alt: "my family ~luv",
+            src: danang_day3_family,
+            imageKey: "danang/day-3/family"
+          },
+          {
+            alt: "mot hoi an",
+            src: danang_day3_mot,
+            imageKey: "danang/day-3/mot"
+          },
+          {
+            alt: "chill sunset",
+            src: danang_day3_bae2,
+            imageKey: "danang/day-3/bae2"
+          },
+          {
+            alt: "what a photograph",
+            src: danang_day3_scene,
+            imageKey: "danang/day-3/scene"
+          }
+        ]
+      },
+
+      {
+        day: 4,
+        title: "4th day",
+        location: "danang",
+        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
+
+        images: [
+          {
+            alt: "my an beach",
+            src: danang_day4_beach,
+            imageKey: "danang/day-4/beach",
+            featured: true
+          },
+          {
+            alt: "ocean scene",
+            src: danang_day4_scene,
+            imageKey: "danang/day-4/scene"
+          },
+          {
+            alt: "beach vibe",
+            src: danang_day4_vibe,
+            imageKey: "danang/day-4/vibe"
+          },
+          {
+            alt: "an com nha",
+            src: danang_day4_lunch,
+            imageKey: "danang/day-4/lunch"
+          },
+          {
+            alt: "lil bro",
+            src: danang_day4_lilbro,
+            imageKey: "danang/day-4/lilbro"
+          },
+          {
+            alt: "bae @ocean",
+            src: danang_day4_ocean,
+            imageKey: "danang/day-4/ocean"
+          },
+          {
+            alt: "hoian~",
+            src: danang_day4_hoian,
+            imageKey: "danang/day-4/hoian"
+          },
+          {
+            alt: "cao lau mi quang meal",
+            src: danang_day4_dinner,
+            imageKey: "danang/day-4/dinner"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     id: "japan",
     name: "Japan",
     date: "23.01.25 - 02.02.25",
