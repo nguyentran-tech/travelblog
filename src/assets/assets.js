@@ -18,17 +18,16 @@ export const destinations = [
     location: "Hangzhou - Shanghai",
     cover: "china/day-4/bund",
     flag: cn_flag,
-    description: "Snow-Kissed Serenity: Unveiling Japan's Winter Wonders",
+    description: "For first time trip coming to China, we decided to visit Hangzhou & Shanghai. In reality, Hangzhou truly gives us nostalgic feelings, while Shanghai showcases their impressive skyscrapers. We didn't even know what cashes look like there... To be honest, we mostly rode bikes there, it is super convenient.",
     days: [
       {
         day: 1,
-        title: "1st day",
-        location: "Hangzhou",
-        highlight: "The train ride to Interlaken",
-        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+        title: "Hangzhou",
+        location: "In77",
+        description: "How happy it feels when we were able to scan QR Code from Alipay to enter train station & make payment.",
         images: [
           {
-            alt: "checkin hotel!",
+            alt: "checkin hotel",
             imageKey: "china/day-1/hotel"
           },
           {
@@ -64,7 +63,8 @@ export const destinations = [
           {
             alt: "our 1st heytea",
             imageKey: "china/day-1/heytea",
-            featured: true
+            featured: true,
+            caption: "heytea is different here"
           },
           {
             alt: "bread store",
@@ -75,11 +75,9 @@ export const destinations = [
 
       {
         day: 2,
-        title: "2nd day",
-        location: "Hangzhou",
-        highlight: "The train ride to Interlaken",
-        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
-
+        title: "Hangzhou",
+        location: "Westlake",
+        // description: "",
         images: [
           {
             alt: "morning fitcheck",
@@ -99,16 +97,16 @@ export const destinations = [
             featured: true
           },
           {
-            alt: "westlake~",
+            alt: "westlake",
             imageKey: "china/day-2/westlake"
           },
           {
-            alt: "another one!",
+            alt: "another one",
             imageKey: "china/day-2/random",
             featured: true
           },
           {
-            alt: "hi there!",
+            alt: "hi there",
             imageKey: "china/day-2/scene2"
           },
           {
@@ -116,7 +114,7 @@ export const destinations = [
             imageKey: "china/day-2/greentea"
           },
           {
-            alt: "another view of westlake~",
+            alt: "another view of westlake",
             imageKey: "china/day-2/random2"
           },
           {
@@ -128,11 +126,9 @@ export const destinations = [
 
       {
         day: 3,
-        title: "3rd day",
-        location: "Hangzhou",
-        highlight: "The train ride to Interlaken",
-        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
-
+        title: "Hangzhou",
+        location: "Xiaohe Straight Street - Westlake",
+        // description: "",
         images: [
           {
             alt: "what a scene",
@@ -140,7 +136,7 @@ export const destinations = [
             featured: true
           },
           {
-            alt: "good morning!",
+            alt: "good morning",
             imageKey: "china/day-3/bae"
           },
           {
@@ -160,7 +156,7 @@ export const destinations = [
             imageKey: "china/day-3/snack"
           },
           {
-            alt: "hangzhou~",
+            alt: "hangzhou",
             imageKey: "china/day-3/hangzhou"
           },
           {
@@ -180,10 +176,9 @@ export const destinations = [
 
       {
         day: 4,
-        title: "4th day",
-        location: "Hangzhou",
-        highlight: "The train ride to Interlaken",
-        description:"Journey to the chinaese Alps for a snowy adventure. Witness snow monkeys in onsen, explore historic Zenko-ji Temple under a soft snowfall, and savor warming Shinshu soba. The pristine white landscapes offer breathtaking winter beauty.",
+        title: "Hangzhou - Shanghai",
+        location: "Shangtianzhu Faxi Temple - The Bund",
+        // description:"",
         images: [
           {
             alt: "like a movie scene",
@@ -191,7 +186,7 @@ export const destinations = [
             featured: true
           },
           {
-            alt: "morningg~",
+            alt: "morningg",
             imageKey: "china/day-4/street"
           },
           {
@@ -203,7 +198,7 @@ export const destinations = [
             imageKey: "china/day-4/scene2"
           },
           {
-            alt: "casual~",
+            alt: "casual",
             imageKey: "china/day-4/bae"
           },
           {
@@ -224,7 +219,7 @@ export const destinations = [
             imageKey: "china/day-4/bae2"
           },
           {
-            alt: "delicious~",
+            alt: "delicious",
             imageKey: "china/day-4/crab"
           }
         ]
@@ -232,13 +227,12 @@ export const destinations = [
 
       {
         day: 5,
-        title: "5th day",
-        location: "Shanghai",
-        highlight: "The train ride to Interlaken",
-        description: "Discover Kanazawa's winter elegance. Marvel at Kenrokuen Garden's snow-supported pines, wander through the historic Higashi Chaya District dusted with snow, and appreciate vibrant Kutani ware. Warm up with regional black curry in this quieter season.",
+        title: "Shanghai",
+        location: "Wukang Mansion - Yuyuan Garden",
+        // description: "",
         images: [
           {
-            alt: "checkin spot#1",
+            alt: "checkin spo",
             imageKey: "china/day-5/us"
           },
           {
@@ -246,7 +240,7 @@ export const destinations = [
             imageKey: "china/day-5/breakfast"
           },
           {
-            alt: "how cool ^-^",
+            alt: "how cool",
             imageKey: "china/day-5/random",
             featured: true
           },
@@ -259,7 +253,7 @@ export const destinations = [
             imageKey: "china/day-5/random2"
           },
           {
-            alt: "delicious~",
+            alt: "delicious",
             imageKey: "china/day-5/dinner"
           },
           {
@@ -267,7 +261,7 @@ export const destinations = [
             imageKey: "china/day-5/magnet",
           },
           {
-            alt: "hii~",
+            alt: "hii",
             imageKey: "china/day-5/us2"
           },
           {
@@ -275,7 +269,7 @@ export const destinations = [
             imageKey: "china/day-5/scene"
           },
           {
-            alt: "midnight food~",
+            alt: "midnight food",
             imageKey: "china/day-5/grill"
           }
         ]
@@ -283,10 +277,9 @@ export const destinations = [
 
       {
         day: 6,
-        title: "6th day",
-        location: "Shanghai",
-        highlight: "The train ride to Interlaken",
-        description: "Explore Takayama's picturesque old town, Sanmachi Suji, under a layer of snow. Visit the Takayama Jinya and sample local sake for warmth. Enjoy hearty Hida beef stew amidst the traditional charm of a winter setting.",
+        title: "Shanghai",
+        location: "The Bund - Nanjing Road",
+        // description: "",
         images: [
           {
             alt: "check supermarket out",
@@ -310,7 +303,7 @@ export const destinations = [
             imageKey: "china/day-6/random"
           },
           {
-            alt: "checkinn~",
+            alt: "checkinn",
             imageKey: "china/day-6/us"
           },
           {
@@ -323,7 +316,7 @@ export const destinations = [
             imageKey: "china/day-6/street"
           },
           {
-            alt: "good meal~",
+            alt: "good meal",
             imageKey: "china/day-6/dinner"
           },
           {
@@ -335,13 +328,12 @@ export const destinations = [
 
       {
         day: 7,
-        title: "7th day",
-        location: "Shanghai",
-        highlight: "The train ride to Interlaken",
-        description: "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+        title: "Shanghai",
+        location: "Panlong - Westbund",
+        // description: "",
         images: [
           {
-            alt: "good morning~",
+            alt: "good morning",
             imageKey: "china/day-7/bae"
           },
           {
@@ -349,7 +341,7 @@ export const destinations = [
             imageKey: "china/day-7/popmart"
           },
           {
-            alt: "like a movie scene again~",
+            alt: "like a movie scene again",
             imageKey: "china/day-7/scene2",
             featured: true
           },
@@ -358,11 +350,11 @@ export const destinations = [
             imageKey: "china/day-7/xn"
           },
           {
-            alt: "another scene again~",
+            alt: "another scene again",
             imageKey: "china/day-7/scene"
           },
           {
-            alt: "us regretting not to come here earlier~",
+            alt: "us regretting not to come here earlier",
             imageKey: "china/day-7/us"
           },
           {
@@ -386,18 +378,16 @@ export const destinations = [
     location: "Da Nang - Hoi An",
     cover: "danang/day-2/bridge",
     flag: vn_flag,
-    description: "Ocean & Family Time",
+    description: "Da Nang is our destination for a summer trip, it's quite rushing but really worth it.",
     days: [
       {
         day: 1,
-        title: "1st day",
-        location: "Da Nang",
-        description:
-          "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Da Nang",
+        location: "Hai San Ba Ro - Sea View",
+        // description: "",
         images: [
           {
-            alt: "on da plane~",
+            alt: "on da plane",
             imageKey: "danang/day-1/random2"
           },
           {
@@ -405,7 +395,7 @@ export const destinations = [
             imageKey: "danang/day-1/random"
           },
           {
-            alt: "good food~",
+            alt: "good food",
             imageKey: "danang/day-1/dinner"
           },
           {
@@ -426,7 +416,7 @@ export const destinations = [
             imageKey: "danang/day-1/us"
           },
           {
-            alt: "my family ~luv",
+            alt: "my family luv",
             imageKey: "danang/day-1/family"
           },
           {
@@ -438,10 +428,9 @@ export const destinations = [
 
       {
         day: 2,
-        title: "2nd day",
-        location: "danang",
-        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Da Nang",
+        location: "My Khe Beach - Dragon Bridge",
+        // description: "",
         images: [
           {
             alt: "another photograph",
@@ -449,7 +438,7 @@ export const destinations = [
             featured: true
           },
           {
-            alt: "ocean vibee~",
+            alt: "ocean vibee",
             imageKey: "danang/day-2/bae"
           },
           {
@@ -457,7 +446,7 @@ export const destinations = [
             imageKey: "danang/day-2/seafood"
           },
           {
-            alt: "my family ~luv",
+            alt: "my family luv",
             imageKey: "danang/day-2/family"
           },
           {
@@ -469,11 +458,11 @@ export const destinations = [
             imageKey: "danang/day-2/bridge"
           },
           {
-            alt: "checkinn~",
+            alt: "checkinn",
             imageKey: "danang/day-2/us"
           },
           {
-            alt: "lovely~",
+            alt: "lovely",
             imageKey: "danang/day-2/love"
           }
         ]
@@ -481,10 +470,9 @@ export const destinations = [
 
       {
         day: 3,
-        title: "3rd day",
-        location: "hoian",
-        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Hoi An",
+        location: "Chao Ngheu Co Gio - Chua Cau - Mot",
+        // description: "",
         images: [
           {
             alt: "breakfast in market",
@@ -496,11 +484,11 @@ export const destinations = [
             featured: true
           },
           {
-            alt: "chao ngheu co gio~",
+            alt: "chao ngheu co gio",
             imageKey: "danang/day-3/chao"
           },
           {
-            alt: "banh mi~",
+            alt: "banh mi",
             imageKey: "danang/day-3/banhmi"
           },
           {
@@ -512,7 +500,7 @@ export const destinations = [
             imageKey: "danang/day-3/bae"
           },
           {
-            alt: "my family ~luv",
+            alt: "my family luv",
             imageKey: "danang/day-3/family"
           },
           {
@@ -532,10 +520,9 @@ export const destinations = [
 
       {
         day: 4,
-        title: "4th day",
-        location: "danang",
-        description: "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Da Nang",
+        location: "My An Beach",
+        // description: "",
         images: [
           {
             alt: "my an beach",
@@ -563,7 +550,7 @@ export const destinations = [
             imageKey: "danang/day-4/ocean"
           },
           {
-            alt: "hoian~",
+            alt: "hoian",
             imageKey: "danang/day-4/hoian"
           },
           {
@@ -583,14 +570,13 @@ export const destinations = [
     location: "Sapporo - Tokyo",
     cover: "japan2/day-5/random2",
     flag: jp_flag,
-    description: "Snow-Kissed Serenity: Unveiling Japan's Winter Wonders",
+    description: "This winter trip to Sapporo and Tokyo is definitely one of the best memories we ever had. We also found the best spicy miso soup in a random ramen shop.",
     days: [
       {
         day: 1,
-        title: "1st day",
-        location: "Sapporo",
-        highlight: "The train ride to Interlaken",
-        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+        title: "Sapporo",
+        location: "Tanukikoji Shopping Street - Odori Park",
+        // description: "",
         images: [
           {
             alt: "train to city",
@@ -613,7 +599,7 @@ export const destinations = [
             imageKey: "japan2/day-1/ramen"
           },
           {
-            alt: "it's just too cold ^-^",
+            alt: "it's just too cold",
             imageKey: "japan2/day-1/shopping"
           },
           {
@@ -629,17 +615,16 @@ export const destinations = [
 
       {
         day: 2,
-        title: "2nd day",
-        location: "Sapporo",
-        highlight: "The train ride to Interlaken",
-        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+        title: "Sapporo",
+        location: "Odori Park - Hokkaido Prefectural Government",
+        // description: "",
         images: [
           {
             alt: "good morning",
             imageKey: "japan2/day-2/xn"
           },
           {
-            alt: "gachaa~",
+            alt: "gachaa",
             imageKey: "japan2/day-2/gacha"
           },
           {
@@ -673,18 +658,17 @@ export const destinations = [
           },
           {
             alt: "best miso ramen",
-            imageKey: "japan2/day-2/ramen"
+            imageKey: "japan2/day-2/ramen",
+            caption: "the best spicy miso ramen"
           }
         ]
       },
 
       {
         day: 3,
-        title: "3rd day",
-        location: "Sapporo",
-        highlight: "The train ride to Interlaken",
-        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
-
+        title: "Hokkaido",
+        location: "Shirahige Waterfall - Biei - Furano",
+        // description: "",
         images: [
           {
             alt: "a quick breakfast on train",
@@ -732,10 +716,9 @@ export const destinations = [
 
       {
         day: 4,
-        title: "4th day",
-        location: "Sapporo",
-        highlight: "The train ride to Interlaken",
-        description:"Journey to the japan2ese Alps for a snowy adventure. Witness snow monkeys in onsen, explore historic Zenko-ji Temple under a soft snowfall, and savor warming Shinshu soba. The pristine white landscapes offer breathtaking winter beauty.",
+        title: "Hokkaido",
+        location: "Funamizaka Slope - Otaru - Beer Museum",
+        // description:"",
         images: [
           {
             alt: "snow",
@@ -783,10 +766,9 @@ export const destinations = [
 
       {
         day: 5,
-        title: "5th day",
-        location: "Sapporo",
-        highlight: "The train ride to Interlaken",
-        description: "Discover Kanazawa's winter elegance. Marvel at Kenrokuen Garden's snow-supported pines, wander through the historic Higashi Chaya District dusted with snow, and appreciate vibrant Kutani ware. Warm up with regional black curry in this quieter season.",
+        title: "Sapporo - Tokyo",
+        location: "Shiroi Koibito Park",
+        // description: "",
         images: [
           {
             alt: "just beautiful to look at",
@@ -825,7 +807,7 @@ export const destinations = [
             imageKey: "japan2/day-5/ramen"
           },
           {
-            alt: "midnight food~",
+            alt: "midnight food",
             imageKey: "japan2/day-5/midnight"
           }
         ]
@@ -833,10 +815,9 @@ export const destinations = [
 
       {
         day: 6,
-        title: "6th day",
-        location: "Tokyo",
-        highlight: "The train ride to Interlaken",
-        description: "Explore Takayama's picturesque old town, Sanmachi Suji, under a layer of snow. Visit the Takayama Jinya and sample local sake for warmth. Enjoy hearty Hida beef stew amidst the traditional charm of a winter setting.",
+        title: "Tokyo",
+        location: "Ueno - Nishinippori - Tokyo Tower - Azabudai Hills - Roppongi Xmas",
+        // description: "",
         images: [
           {
             alt: "random photograph",
@@ -884,13 +865,12 @@ export const destinations = [
 
       {
         day: 7,
-        title: "7th day",
-        location: "Tokyo",
-        highlight: "The train ride to Interlaken",
-        description: "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+        title: "Tokyo",
+        location: "Gōtokuji Temple - Shibuya",
+        // description: "",
         images: [
           {
-            alt: "random photograph #1",
+            alt: "random photograph",
             imageKey: "japan2/day-7/random"
           },
           {
@@ -935,10 +915,9 @@ export const destinations = [
 
       {
         day: 8,
-        title: "8th day",
-        location: "Tokyo",
-        highlight: "The train ride to Interlaken",
-        description: "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+        title: "Tokyo",
+        location: "Kamimeguro - Daikanyama - Yokohama - Ginza",
+        // description: "",
         images: [
           {
             alt: "imdonut first",
@@ -987,18 +966,16 @@ export const destinations = [
     id: "bali",
     name: "Bali",
     date: "30.08.25 - 03.09.25",
-    location: "Bali",
+    location: "Ubud - Seminyak - Canggu - Uluwatu",
     cover: "bali/day-3/scene",
     flag: indo_flag,
-    description: "Ocean & Family Time",
+    description: "Everything is so chill in Bali, especially we felt different vibes on one island. We had some funny concerns staying there, like how come gas stations are not many, where is the police station, a lot of bakso that made us stick to a viral melody :), etc.",
     days: [
       {
         day: 1,
-        title: "1st day",
-        location: "Bali",
-        description:
-          "Immerse yourself in the exotic allure of danang, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Ubud",
+        location: "Jalan Goutama Ubud - Saraswati Temple",
+        // description: "",
         images: [
           {
             alt: "gas station is rare here",
@@ -1042,10 +1019,9 @@ export const destinations = [
 
       {
         day: 2,
-        title: "2nd day",
-        location: "bali",
-        description: "Immerse yourself in the exotic allure of bali, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Ubud - Seminyak",
+        location: "Tegalalang Rice Terrace - Potato Head Beach Club",
+        // description: "",
         images: [
           {
             alt: "good vibe",
@@ -1093,10 +1069,9 @@ export const destinations = [
 
       {
         day: 3,
-        title: "3rd day",
-        location: "Bali",
-        description: "Immerse yourself in the exotic allure of bali, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Uluwatu",
+        location: "Canggu - Dinne Le Cliff",
+        // description: "",
         images: [
           {
             alt: "hello",
@@ -1140,17 +1115,16 @@ export const destinations = [
 
       {
         day: 4,
-        title: "4th day",
-        location: "Bali",
-        description: "Immerse yourself in the exotic allure of bali, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Uluwatu",
+        location: "Beach Club - Uluwatu Temple",
+        // description: "",
         images: [
           {
-            alt: "beach vibe #1",
+            alt: "beach vibe",
             imageKey: "bali/day-4/bae"
           },
           {
-            alt: "beach vibe #2",
+            alt: "beach vibe",
             imageKey: "bali/day-4/breakfast"
           },
           {
@@ -1195,17 +1169,16 @@ export const destinations = [
     location: "Tokyo - Nagano - Kanazawa - Takayama - Shirakawago - Kyoto - Osaka",
     cover: "japan/day-1/tokyo_skytree",
     flag: jp_flag,
-    description: "Snow-Kissed Serenity: Unveiling Japan's Winter Wonders",
+    description: "Our first winter trip together and we just loved it. The very first time we been in Japan, felt that cold, touched snow, wore yukata, onsen, etc. ",
     days: [
       {
         day: 1,
-        title: "1st day",
-        location: "Tokyo",
-        highlight: "The train ride to Interlaken",
-        description: "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
+        title: "Tokyo",
+        location: "Narita Airport - Tokyo Sky Tree",
+        // description: "",
         images: [
           {
-            alt: "welcome to Japan!!",
+            alt: "welcome to Japan",
             imageKey: "japan/day-1/welcome",
             featured: true
           },
@@ -1235,12 +1208,9 @@ export const destinations = [
 
       {
         day: 2,
-        title: "2nd day",
-        location: "Tokyo",
-        highlight: "The train ride to Interlaken",
-        description:
-          "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
-
+        title: "Tokyo",
+        location: "Asakusa - Akihabara - Ginza",
+        // description: "",
         images: [
           {
             alt: "morning matcha",
@@ -1273,12 +1243,9 @@ export const destinations = [
 
       {
         day: 3,
-        title: "3rd day",
-        location: "Tokyo",
-        highlight: "The train ride to Interlaken",
-        description:
-          "Immerse yourself in Tokyo's winter charm, where dazzling illuminations paint the city nights. Explore vibrant districts, find cozy cafes, and discover serene snow-dusted gardens. Warm up with delicious ramen after navigating the iconic Shibuya crossing under a crisp winter sky.",
-
+        title: "Tokyo",
+        location: "Tokyo Station - Imperial Palace - Akasaka Station - Shinjuku - Harajuku - Shibuya",
+        // description: "",
         images: [
           {
             alt: "us wandering around",
@@ -1311,10 +1278,9 @@ export const destinations = [
 
       {
         day: 4,
-        title: "4th day",
-        location: "Nagano",
-        highlight: "The train ride to Interlaken",
-        description:"Journey to the Japanese Alps for a snowy adventure. Witness snow monkeys in onsen, explore historic Zenko-ji Temple under a soft snowfall, and savor warming Shinshu soba. The pristine white landscapes offer breathtaking winter beauty.",
+        title: "Nagano",
+        location: "Zenkōji Temple - Shibu Onsen - Snow Monkey Park",
+        // description:"",
         images: [
           {
             alt: "quick breakfast on train",
@@ -1325,12 +1291,12 @@ export const destinations = [
             imageKey: "japan/day-4/us"
           },
           {
-            alt: "first time touch snow ~~",
+            alt: "first time touch snow ",
             imageKey: "japan/day-4/xn_snow",
             featured: true
           },
           {
-            alt: "first time touch snow ~~",
+            alt: "first time touch snow ",
             imageKey: "japan/day-4/bae_snow",
             featured: true
           },
@@ -1347,10 +1313,9 @@ export const destinations = [
 
       {
         day: 5,
-        title: "5th day",
-        location: "Kanazawa",
-        highlight: "The train ride to Interlaken",
-        description: "Discover Kanazawa's winter elegance. Marvel at Kenrokuen Garden's snow-supported pines, wander through the historic Higashi Chaya District dusted with snow, and appreciate vibrant Kutani ware. Warm up with regional black curry in this quieter season.",
+        title: "Kanazawa",
+        location: "Higashiyama - Asano River - Kanazawa Castle",
+        // description: "",
         images: [
           {
             alt: "eating kaiseki meal",
@@ -1383,13 +1348,12 @@ export const destinations = [
 
       {
         day: 6,
-        title: "6th day",
-        location: "Takayama - Shirakawago",
-        highlight: "The train ride to Interlaken",
-        description: "Explore Takayama's picturesque old town, Sanmachi Suji, under a layer of snow. Visit the Takayama Jinya and sample local sake for warmth. Enjoy hearty Hida beef stew amidst the traditional charm of a winter setting.",
+        title: "Takayama - Shirakawago",
+        location: "Takayama Old Town - Shirakawago",
+        // description: "",
         images: [
           {
-            alt: "best pudding ~~",
+            alt: "best pudding ",
             imageKey: "japan/day-6/flan"
           },
           {
@@ -1419,10 +1383,9 @@ export const destinations = [
 
       {
         day: 7,
-        title: "7th day",
-        location: "Kyoto",
-        highlight: "The train ride to Interlaken",
-        description: "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+        title: "Kyoto",
+        location: "Nanzen-ji Temple - Kamo River Noryo-Yuka Area",
+        // description: "",
         images: [
           {
             alt: "morning heavy snow",
@@ -1443,7 +1406,7 @@ export const destinations = [
             featured: true
           },
           {
-            alt: "^-^",
+            alt: "bae",
             imageKey: "japan/day-7/bae"
           },
           {
@@ -1459,10 +1422,9 @@ export const destinations = [
 
       {
         day: 8,
-        title: "8th day",
-        location: "Kyoto",
-        highlight: "The train ride to Interlaken",
-        description: "Witness Kyoto's iconic temples and shrines in a serene winter ambiance. Picture the snow-covered Golden Pavilion and stroll through the mystical Arashiyama Bamboo Grove. Warm up with matcha and savor delicate Kyo-ryori in this tranquil season.",
+        title: "Kyoto",
+        location: "Arashiyama Bamboo - Togetsukyo Bridge - Yasaka Pagoda",
+        // description: "",
         images: [
           {
             alt: "tourist attraction - bamboo grove",
@@ -1499,10 +1461,9 @@ export const destinations = [
 
       {
         day: 9,
-        title: "9th day",
-        location: "Osaka",
-        highlight: "The train ride to Interlaken",
-        description: "Experience Osaka's winter energy with festive illuminations and warm street food delights in Dotonbori. Visit Osaka Castle against the stark winter sky and savor comforting takoyaki. Embrace the city's lively atmosphere even in the cooler months.",
+        title: "Kyoto - Osaka",
+        location: "Nishiki Market - Nippombashi - Dotonbori",
+        // description: "",
         images: [
           {
             alt: "fitcheck",
@@ -1518,7 +1479,7 @@ export const destinations = [
             featured: true
           },
           {
-            alt: "unagii!",
+            alt: "unagii",
             imageKey: "japan/day-9/bae",
             featured: true
           },
@@ -1539,10 +1500,9 @@ export const destinations = [
 
       {
         day: 10,
-        title: "10th day",
-        location: "Osaka",
-        highlight: "The train ride to Interlaken",
-        description: "Experience Osaka's winter energy with festive illuminations and warm street food delights in Dotonbori. Visit Osaka Castle against the stark winter sky and savor comforting takoyaki. Embrace the city's lively atmosphere even in the cooler months.",
+        title: "Osaka",
+        location: "Namba Yasaka Jinja Temple - Osaka Castle - Shinsekai Area",
+        // description: "",
         images: [
           {
             alt: "namba station",
@@ -1580,28 +1540,24 @@ export const destinations = [
     id: "hongkong",
     name: "Hong Kong",
     date: "26.04.24 - 30.04.24",
-    location: "Victoria Habour - Hongkong Observation Wheel - Lan Kwai Fong - Disneyland - 1881 Heritage",
+    location: "Victoria Habour - Avenue of Stars - Yick Fat Building - Disneyland - 1881 Heritage",
     cover: "hongkong/day-2/dingding",
     flag: hk_flag,
-    description: "Skyscraper Spectacle & Dim Sum Delights",
-
+    // description: "",
     days: [
       {
         day: 1,
-        title: "1st day",
-        location: "Hongkong",
-        description:
-          "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
-
+        title: "Hongkong",
+        location: "Avenue of Stars - Victoria Habour",
+        // description: "",
         images: [
           {
-            alt: "welcome to hongkong!!",
+            alt: "welcome to hongkong",
             imageKey: "hongkong/day-1/octopus"
           },
           {
             alt: "us @ airport",
-            imageKey: "hongkong/day-1/airport",
-            featured: true
+            imageKey: "hongkong/day-1/airport"
           },
           {
             alt: "random photograph",
@@ -1629,16 +1585,13 @@ export const destinations = [
 
       {
         day: 2,
-        title: "2nd day",
-        location: "Hongkong",
-        description:
-          "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
-
+        title: "Hongkong",
+        location: "Observation Wheel - Man Mo Temple - Lan Kwai Fong",
+        // description: "",
         images: [
           {
             alt: "random street photograph",
-            imageKey: "hongkong/day-2/random",
-            featured: true
+            imageKey: "hongkong/day-2/random"
           },
           {
             alt: "bae",
@@ -1646,16 +1599,16 @@ export const destinations = [
           },
           {
             alt: "wheel",
-            imageKey: "hongkong/day-2/wheel"
+            imageKey: "hongkong/day-2/wheel",
+            featured: true
           },
           {
             alt: "xn",
             imageKey: "hongkong/day-2/xn"
           },
           {
-            alt: "ding ding ~",
-            imageKey: "hongkong/day-2/dingding",
-            featured: true
+            alt: "ding ding ",
+            imageKey: "hongkong/day-2/dingding"
           },
           {
             alt: "longest escalator",
@@ -1670,14 +1623,13 @@ export const destinations = [
 
       {
         day: 3,
-        title: "3rd day",
-        location: "Hongkong",
-        description: "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
+        title: "Hongkong",
+        location: "Wong Tai Sin Temple - Choi Hung Estate - Yick Fat Building",
+        // description: "",
         images: [
           {
             alt: "super breakfast",
-            imageKey: "hongkong/day-3/food",
-            featured: true
+            imageKey: "hongkong/day-3/food"
           },
           {
             alt: "fitcheck",
@@ -1692,13 +1644,14 @@ export const destinations = [
             imageKey: "hongkong/day-3/temple"
           },
           {
-            alt: "random photograph ~",
+            alt: "random photograph ",
             imageKey: "hongkong/day-3/random",
             featured: true
           },
           {
             alt: "us @colorful building",
-            imageKey: "hongkong/day-3/us"
+            imageKey: "hongkong/day-3/us",
+            featured: true
           },
           {
             alt: "bae by the sea",
@@ -1721,13 +1674,12 @@ export const destinations = [
 
       {
         day: 4,
-        title: "4th day",
-        location: "Hongkong",
-        description: "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
-
+        title: "Hongkong",
+        location: "Disneyland",
+        // description: "",
         images: [
           {
-            alt: "welcome to disneyland hongkong!",
+            alt: "welcome to disneyland hongkong",
             imageKey: "hongkong/day-4/disneyland",
             featured: true
           },
@@ -1744,9 +1696,8 @@ export const destinations = [
             imageKey: "hongkong/day-4/toy_story"
           },
           {
-            alt: "fairy tale building ~",
-            imageKey: "hongkong/day-4/building",
-            featured: true
+            alt: "fairy tale building",
+            imageKey: "hongkong/day-4/building"
           },
           {
             alt: "watching ballet",
@@ -1754,7 +1705,8 @@ export const destinations = [
           },
           {
             alt: "night firework @disneyland",
-            imageKey: "hongkong/day-4/night"
+            imageKey: "hongkong/day-4/night",
+            featured: true
           },
           {
             alt: "no more energy after long playday",
@@ -1769,16 +1721,13 @@ export const destinations = [
 
       {
         day: 5,
-        title: "5th day",
-        location: "Hongkong",
-        description:
-          "Experience the dynamic energy of Hong Kong, a vibrant metropolis where East meets West in a dazzling display of culture, cuisine, and breathtaking skylines. Explore bustling markets filled with treasures, ascend Victoria Peak for panoramic city views, and savor world-class dim sum and international flavors.",
-
+        title: "Hongkong",
+        location: "1881 Heritage - Wan Chai",
+        // description: "",
         images: [
           {
-            alt: "another high quality breakfast~",
-            imageKey: "hongkong/day-5/food",
-            featured: true
+            alt: "another high quality breakfast",
+            imageKey: "hongkong/day-5/food"
           },
           {
             alt: "bae @1881 heritage",
@@ -1819,23 +1768,19 @@ export const destinations = [
     id: "thailand",
     name: "Thailand",
     date: "02.12.23 - 05.12.23",
-    location: "Siam Area - Jodd Fair Night Market - Wat Paknam Temple - Yaowarat - Talat Noi - Icon Siam - Bangkok Grand Palace",
+    location: "Wat Paknam Temple - Talat Noi - Icon Siam - Bangkok Grand Palace",
     cover: "thailand/day-3/random",
     flag: thai_flag,
-    description:
-      "Spicy Aromas & Street Food Feasts",
-
+    // description: "",
     days: [
       {
         day: 1,
-        title: "1st day",
-        location: "Thailand",
-        description:
-          "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Bangkok",
+        location: "Siam Area - Jodd Fair Night Market",
+        // description: "",
         images: [
           {
-            alt: "start food trip @ thailand!!",
+            alt: "start food trip @ thailand",
             imageKey: "thailand/day-1/noodle"
           },
           {
@@ -1843,21 +1788,21 @@ export const destinations = [
             imageKey: "thailand/day-1/xn"
           },
           {
-            alt: "soup soup ~",
+            alt: "soup soup ",
             imageKey: "thailand/day-1/soup"
-          },
-          {
-            alt: "bae @ center",
-            imageKey: "thailand/day-1/bae"
           },
           {
             alt: "mbk center",
             imageKey: "thailand/day-1/mbk"
           },
           {
-            alt: "bae @ gallery",
-            imageKey: "thailand/day-1/bae_gallery",
+            alt: "bae @ center",
+            imageKey: "thailand/day-1/bae",
             featured: true
+          },
+          {
+            alt: "bae @ gallery",
+            imageKey: "thailand/day-1/bae_gallery"
           },
           {
             alt: "tuktuk at night",
@@ -1868,11 +1813,9 @@ export const destinations = [
 
       {
         day: 2,
-        title: "2nd day",
-        location: "Thailand",
-        description:
-          "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Bangkok",
+        location: "Wat Paknam Temple - Khlong Bang Luang",
+        // description:"",
         images: [
           {
             alt: "us @ mrt station",
@@ -1908,10 +1851,9 @@ export const destinations = [
 
       {
         day: 3,
-        title: "3rd day",
-        location: "Thailand",
-        description: "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Bangkok",
+        location: "Ong Ang Street - Talat Noi - River City Bangkok - Icon Siam",
+        // description: "",
         images: [
           {
             alt: "super packed breakfast",
@@ -1947,7 +1889,7 @@ export const destinations = [
             imageKey: "thailand/day-3/mall3"
           },
           {
-            alt: "hotpot hotpot ~",
+            alt: "hotpot hotpot ",
             imageKey: "thailand/day-3/dinner"
           }
         ]
@@ -1955,15 +1897,13 @@ export const destinations = [
 
       {
         day: 4,
-        title: "4th day",
-        location: "Thailand",
-        description: "Immerse yourself in the exotic allure of Thailand, the 'Land of Smiles,' renowned for its stunning golden temples, idyllic tropical beaches, and vibrant cultural heritage. Explore bustling Bangkok with its ornate palaces and bustling markets, indulge in the tantalizing flavors of Thai cuisine.",
-
+        title: "Bangkok",
+        location: "Bangkok Grand Palace",
+        // description: "",
         images: [
           {
             alt: "breakfast @vintage restaurant",
-            imageKey: "thailand/day-4/restaurant",
-            featured: true
+            imageKey: "thailand/day-4/restaurant"
           },
           {
             alt: "breakfast",
@@ -1974,12 +1914,13 @@ export const destinations = [
             imageKey: "thailand/day-4/building"
           },
           {
-            alt: "mango sticky rice for sure~",
+            alt: "mango sticky rice for sure",
             imageKey: "thailand/day-4/mango"
           },
           {
             alt: "another random photograph",
-            imageKey: "thailand/day-4/random"
+            imageKey: "thailand/day-4/random",
+            featured: true
           },
           {
             alt: "grand palace",

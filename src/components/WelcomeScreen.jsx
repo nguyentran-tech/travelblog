@@ -16,18 +16,13 @@ function WelcomeScreen({ onComplete }) {
   const pandaPositions = [
     { x: 0, y: 0 },
     { x: 70, y: -20 },
-    { x: -75, y: 25 },
-    { x: 65, y: 30 },
-    { x: -55, y: -25 },
+    { x: -55, y: -25 }
   ]
 
   const messages = [
-    'Tap the panda to begin.',
-    'Oh, you found me. ✦',
-    'Wait... where are you going?',
-    'Almost there...',
-    'One more little adventure.',
-    "Let's explore. ✦",
+    'Tap the panda to begin. ✦',
+    'Oh, are you ready to go with us?',
+    "Let's explore now. ✦"
   ]
 
   const handlePandaClick = () => {
@@ -35,8 +30,8 @@ function WelcomeScreen({ onComplete }) {
 
     const nextCount = tapCount + 1
 
-    if (nextCount >= 5) {
-      setTapCount(5)
+    if (nextCount >= 3) {
+      setTapCount(3)
       setLeaving(true)
 
       setTimeout(() => {
@@ -95,7 +90,7 @@ function WelcomeScreen({ onComplete }) {
       </div>
 
       <div className="pointer-events-none absolute bottom-[24%] left-[18%] text-[#C89A68]/50">
-        ·
+        ✦
       </div>
 
       {/* Main content */}
@@ -104,18 +99,17 @@ function WelcomeScreen({ onComplete }) {
         {/* Heading */}
         <div className="mb-8">
           <p className="mb-3 text-xs uppercase tracking-[0.3em] text-[#C89A68]">
-            Welcome to XN & MA travel journal
+            XN & MA
           </p>
 
           <h1 className="text-3xl font-medium tracking-tight text-[#F4EEE7] sm:text-4xl">
-            Our journey
+            Welcome To            
             <br />
-            begins here.
+            Our Travel Journal
           </h1>
 
           <p className="mx-auto mt-4 max-w-xs text-sm leading-6 text-[#F4EEE7]/65">
-            Come wander with us and discover a few places
-            worth remembering.
+            This is where we share many beautiful memorable moments together.
           </p>
         </div>
 
@@ -174,22 +168,15 @@ function WelcomeScreen({ onComplete }) {
               animate-fade-in
               text-sm
               leading-6
-              text-[#F4EEE7]/75
+              text-[#F4EEE7]/50
             "
           >
             {messages[tapCount]}
           </p>
         </div>
-
-        {/* Hint */}
-        <p className="mt-8 text-[10px] uppercase tracking-[0.25em] text-[#F4EEE7]/30">
-          Tap to continue
-        </p>
-
       </div>
 
-      {/* Bottom decoration */}
-      <div className="relative z-10 pb-7 text-center">
+      <div className="relative z-10 mb-10 pb-7 text-center">
         <p className="text-[10px] uppercase tracking-[0.25em] text-[#F4EEE7]/30">
           ✦ wander · discover · remember ✦
         </p>
