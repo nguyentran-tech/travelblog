@@ -9,7 +9,7 @@ function ImageGallery({ images, onImageClick }) {
 
         return (
           <button
-            key={image.src}
+            key={index}
             type="button"
             onClick={() => onImageClick(index)}
             className={`

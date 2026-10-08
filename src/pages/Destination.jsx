@@ -4,6 +4,7 @@ import { destinations } from "../assets/assets";
 import DaySection from "../components/DaySection";
 import PhotoViewer from "../components/PhotoViewer";
 import DayNavigation from "../components/DayNavigation";
+import ResponsiveImage from "../components/ResponsiveImage";
 
 function Destination() {
   const { id } = useParams();
@@ -105,8 +106,13 @@ function Destination() {
 
       {/* Hero */}
       <section className="relative flex min-h-[85vh] items-end overflow-hidden sm:min-h-screen">
-        <img
+        {/* <img
           src={destination.cover}
+          alt={destination.name}
+          className="absolute inset-0 h-full w-full object-cover"
+        /> */}
+        <ResponsiveImage
+          imageKey={destination.cover}
           alt={destination.name}
           className="absolute inset-0 h-full w-full object-cover"
         />

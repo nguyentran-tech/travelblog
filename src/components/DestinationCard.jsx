@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import ResponsiveImage from "./ResponsiveImage";
 
 function DestinationCard({ destination }) {
   return (
@@ -8,11 +9,18 @@ function DestinationCard({ destination }) {
       className="group relative block h-[68vh] min-h-[480px] w-[82vw] max-w-[420px] shrink-0 overflow-hidden rounded-2xl bg-[#211d19] sm:h-[600px]"
     >
       {/* Image */}
-      <img
+      {/* <img
         src={destination.cover}
         alt={destination.name}
         loading="lazy"
         decoding="async"
+        className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+      /> */}
+      <ResponsiveImage
+        imageKey={destination.cover}
+        alt={destination.name}
+        loading="lazy"
+        sizes="(max-width: 640px) 82vw, 420px"
         className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
       />
 
