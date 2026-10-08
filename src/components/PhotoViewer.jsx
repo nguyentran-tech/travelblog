@@ -374,6 +374,7 @@ function PhotoViewer({
             max-w-xl
             -translate-x-1/2
             text-center
+            mb-4
             sm:bottom-8
           "
         >
