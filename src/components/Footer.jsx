@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
         <div className='text-primary'>
             <hr />
-            <p className='py-5 text-sm text-center'>Copyright @2026, @nguyentran-tech - All Right Reserved. Please Respect Our Contents And Photos.</p>
+            <p className='py-5 text-sm text-center'>© 2026 nguyentran-tech. All rights reserved.</p>
         </div>
     </div>
   )

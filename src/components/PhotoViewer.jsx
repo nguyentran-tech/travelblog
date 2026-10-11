@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { getViewerImage, getResponsiveImages } from "../assets/imageSources";
 
 function PhotoViewer({
@@ -102,34 +102,69 @@ function PhotoViewer({
   }, []);
 
   /*
-  * Preload only the next photo.
-  *
-  * We use the 1200px version here because this is
-  * only a preparation for the user's next action.
-  *
-  * The current photo still uses the full 2000px version.
-  */
+   * Preload adjacent photos.
+   *
+   * When the viewer first opens:
+   *   - Preload the previous photo.
+   *   - Preload the next photo.
+   *
+   * After navigation:
+   *   - Moving next: preload only the next photo.
+   *   - Moving previous: preload only the previous photo.
+   *
+   * Use the 1200px WebP variant to limit preload bandwidth.
+   */
+
+  const hasInitializedPreload = useRef(false);
+
   useEffect(() => {
+    if (!images.length) return;
+
+    const preloadImage = (index) => {
+      const image = images[index];
+
+      if (!image?.imageKey) return;
+
+      const optimized = getResponsiveImages(
+        image.imageKey
+      );
+
+      const imageUrl = optimized?.webp?.[1200];
+
+      if (!imageUrl) return;
+
+      const img = new Image();
+      img.decoding = "async";
+      img.src = imageUrl;
+    };
+
+    const previousIndex =
+      (currentIndex - 1 + images.length) %
+      images.length;
+
     const nextIndex =
-      currentIndex === images.length - 1
-        ? 0
-        : currentIndex + 1;
+      (currentIndex + 1) % images.length;
 
-    const nextImage = images[nextIndex];
+    // First render: prepare both adjacent photos.
+    if (!hasInitializedPreload.current) {
+      hasInitializedPreload.current = true;
 
-    if (!nextImage?.imageKey) {
+      if (images.length > 1) {
+        preloadImage(previousIndex);
+        preloadImage(nextIndex);
+      }
+
       return;
     }
 
-    const optimized =
-      getResponsiveImages(
-        nextImage.imageKey
-      );
-
-    const img = new Image();
-
-    img.src = optimized.webp[1200];
-  }, [currentIndex, images]);
+    // Subsequent renders: preload only in the
+    // direction the user navigated.
+    if (direction === "next") {
+      preloadImage(nextIndex);
+    } else {
+      preloadImage(previousIndex);
+    }
+  }, [currentIndex, direction, images]);
 
   /*
    * Touch swipe

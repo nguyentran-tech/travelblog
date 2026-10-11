@@ -1,14 +1,3 @@
-// Country Flags
-//#region
-import cn_flag from './flags/cnflag.svg'
-import vn_flag from './flags/vnflag.svg'
-import jp_flag from './flags/jpflag.svg'
-import indo_flag from './flags/indoflag.svg'
-import hk_flag from './flags/hkflag.svg'
-import thai_flag from './flags/thaiflag.svg'
-//#endregion
-
-// Destinations
 export const destinations = [
   //China
   {
@@ -17,7 +6,6 @@ export const destinations = [
     date: "28.08.26 - 03.09.26",
     location: "Hangzhou - Shanghai",
     cover: "china/day-4/bund",
-    flag: cn_flag,
     description: "For first time trip coming to China, we decided to visit Hangzhou & Shanghai. In reality, Hangzhou truly gives us nostalgic feelings, while Shanghai showcases their impressive skyscrapers. We didn't even know what cashes look like there... To be honest, we mostly rode bikes there, it is super convenient.",
     days: [
       {
@@ -27,41 +15,45 @@ export const destinations = [
         description: "How happy it feels when we were able to scan QR Code from Alipay to enter train station & make payment.",
         images: [
           {
-            alt: "checkin hotel",
-            imageKey: "china/day-1/hotel"
+            alt: "hotel",
+            imageKey: "china/day-1/hotel",
+            caption: "warm welcome"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "china/day-1/random",
             featured: true
           },
           {
-            alt: "our fitcheck spot",
-            imageKey: "china/day-1/spot"
+            alt: "spot",
+            imageKey: "china/day-1/spot",
+            caption: "our fitcheck spot ^-^"
           },
           {
-            alt: "street near hotel",
+            alt: "ma",
             imageKey: "china/day-1/bae"
           },
           {
-            alt: "us @checkin spot",
-            imageKey: "china/day-1/us"
+            alt: "us",
+            imageKey: "china/day-1/us",
+            caption: "fitcheck #1"
           },
           {
-            alt: "beautiful street",
+            alt: "random photo",
             imageKey: "china/day-1/road",
             featured: true
           },
           {
-            alt: "our 1st dinner",
-            imageKey: "china/day-1/lunch"
+            alt: "food",
+            imageKey: "china/day-1/lunch",
+            caption: "Chinai’s Curry"
           },
           {
-            alt: "xn @heytea",
+            alt: "xn",
             imageKey: "china/day-1/xn"
           },
           {
-            alt: "our 1st heytea",
+            alt: "heatea",
             imageKey: "china/day-1/heytea",
             featured: true,
             caption: "heytea is different here"
@@ -80,45 +72,49 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "morning fitcheck",
-            imageKey: "china/day-2/us"
+            alt: "us",
+            imageKey: "china/day-2/us",
+            caption: "fitcheck #2"
           },
           {
-            alt: "light breakfast",
+            alt: "ma",
             imageKey: "china/day-2/breakfast"
           },
           {
-            alt: "beautiful spot",
-            imageKey: "china/day-2/spot"
+            alt: "spot",
+            imageKey: "china/day-2/spot",
+            caption: "what a beautiful spot"
           },
           {
-            alt: "another beautiful scene",
+            alt: "scene",
             imageKey: "china/day-2/scene",
-            featured: true
+            featured: true,
+            caption: "westlake"
           },
           {
-            alt: "westlake",
+            alt: "us",
             imageKey: "china/day-2/westlake"
           },
           {
-            alt: "another one",
+            alt: "random",
             imageKey: "china/day-2/random",
             featured: true
           },
           {
-            alt: "hi there",
+            alt: "us",
             imageKey: "china/day-2/scene2"
           },
           {
-            alt: "our dinner @greentea longjing",
-            imageKey: "china/day-2/greentea"
+            alt: "dinner",
+            imageKey: "china/day-2/greentea",
+            caption: "longjing greentea"
           },
           {
-            alt: "another view of westlake",
+            alt: "westlake",
             imageKey: "china/day-2/random2"
           },
           {
-            alt: "bae @westlake",
+            alt: "ma",
             imageKey: "china/day-2/bae"
           }
         ]
@@ -131,45 +127,49 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "what a scene",
+            alt: "scene",
             imageKey: "china/day-3/scene",
-            featured: true
+            featured: true,
+            caption: "what a scene"
           },
           {
-            alt: "good morning",
+            alt: "ma",
             imageKey: "china/day-3/bae"
           },
           {
-            alt: "checkin..",
+            alt: "us",
             imageKey: "china/day-3/checkin"
           },
           {
-            alt: "xn @random place",
+            alt: "xn",
             imageKey: "china/day-3/xn"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "china/day-3/random"
           },
           {
-            alt: "our snackk",
-            imageKey: "china/day-3/snack"
+            alt: "snack",
+            imageKey: "china/day-3/snack",
+            caption: "our snack"
           },
           {
             alt: "hangzhou",
             imageKey: "china/day-3/hangzhou"
           },
           {
-            alt: "us again",
+            alt: "us",
             imageKey: "china/day-3/us"
           },
           {
-            alt: "stuffed",
-            imageKey: "china/day-3/dinner"
+            alt: "dinner",
+            imageKey: "china/day-3/dinner",
+            caption: "xin bai lu"
           },
           {
-            alt: "donutt..",
-            imageKey: "china/day-3/donut"
+            alt: "donut",
+            imageKey: "china/day-3/donut",
+            caption: "donut.."
           }
         ]
       },
@@ -181,46 +181,52 @@ export const destinations = [
         // description:"",
         images: [
           {
-            alt: "like a movie scene",
+            alt: "scene",
             imageKey: "china/day-4/scene",
-            featured: true
+            featured: true,
+            caption: "like a movie scene"
           },
           {
-            alt: "morningg",
+            alt: "ma",
             imageKey: "china/day-4/street"
           },
           {
-            alt: "fitcheck again",
-            imageKey: "china/day-4/us"
+            alt: "us",
+            imageKey: "china/day-4/us",
+            caption: "fitcheck #3"
           },
           {
-            alt: "checkin spot",
-            imageKey: "china/day-4/scene2"
+            alt: "spot",
+            imageKey: "china/day-4/scene2",
+            caption: "faxi temple"
           },
           {
-            alt: "casual",
+            alt: "ma",
             imageKey: "china/day-4/bae"
           },
           {
-            alt: "great spot",
+            alt: "xn",
             imageKey: "china/day-4/xn"
           },
           {
-            alt: "last meal then goin' to city",
-            imageKey: "china/day-4/lunch"
+            alt: "lunch",
+            imageKey: "china/day-4/lunch",
+            caption: "too oily"
           },
           {
-            alt: "here goes the bund",
+            alt: "the bund",
             imageKey: "china/day-4/bund",
-            featured: true
+            featured: true,
+            caption: "here is the bund"
           },
           {
-            alt: "checkin @thebund",
+            alt: "ma",
             imageKey: "china/day-4/bae2"
           },
           {
-            alt: "delicious",
-            imageKey: "china/day-4/crab"
+            alt: "crab",
+            imageKey: "china/day-4/crab",
+            caption: "xie san bao"
           }
         ]
       },
@@ -232,45 +238,51 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "checkin spo",
-            imageKey: "china/day-5/us"
+            alt: "spot",
+            imageKey: "china/day-5/us",
+            caption: "wukang mansion"
           },
           {
-            alt: "a bit salty..",
-            imageKey: "china/day-5/breakfast"
+            alt: "breakfast",
+            imageKey: "china/day-5/breakfast",
+            caption: "a bit salty.."
           },
           {
-            alt: "how cool",
+            alt: "random",
             imageKey: "china/day-5/random",
             featured: true
           },
           {
-            alt: "right on da street",
+            alt: "ma",
             imageKey: "china/day-5/bae"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "china/day-5/random2"
           },
           {
-            alt: "delicious",
-            imageKey: "china/day-5/dinner"
+            alt: "dinner",
+            imageKey: "china/day-5/dinner",
+            caption: "xin bai lu"
           },
           {
-            alt: "there's always a better one",
+            alt: "magnet",
             imageKey: "china/day-5/magnet",
+            caption: "hard to decide"
           },
           {
-            alt: "hii",
+            alt: "us",
             imageKey: "china/day-5/us2"
           },
           {
-            alt: "randomly catched it",
-            imageKey: "china/day-5/scene"
+            alt: "scene",
+            imageKey: "china/day-5/scene",
+            caption: "chenghuang temple"
           },
           {
-            alt: "midnight food",
-            imageKey: "china/day-5/grill"
+            alt: "midnight",
+            imageKey: "china/day-5/grill",
+            caption: "long time ago"
           }
         ]
       },
@@ -282,46 +294,50 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "check supermarket out",
-            imageKey: "china/day-6/market"
+            alt: "supermarket",
+            imageKey: "china/day-6/market",
+            caption: "check out supermarket"
           },
           {
-            alt: "random mee shop but awesome",
-            imageKey: "china/day-6/breakfast"
+            alt: "breakfast",
+            imageKey: "china/day-6/breakfast",
+            caption: "random mee shop but awesome"
           },
           {
-            alt: "photo spot then",
+            alt: "ma",
             imageKey: "china/day-6/bae",
             featured: true
           },
           {
-            alt: "xn @the bund",
+            alt: "xn",
             imageKey: "china/day-6/xn"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "china/day-6/random"
           },
           {
-            alt: "checkinn",
+            alt: "us",
             imageKey: "china/day-6/us"
           },
           {
-            alt: "another random photograph",
+            alt: "bund",
             imageKey: "china/day-6/bund",
             featured: true
           },
           {
-            alt: "captured the moment",
+            alt: "ma",
             imageKey: "china/day-6/street"
           },
           {
-            alt: "good meal",
-            imageKey: "china/day-6/dinner"
+            alt: "dinner",
+            imageKey: "china/day-6/dinner",
+            caption: "wei xiang zhai"
           },
           {
-            alt: "another photo spot",
-            imageKey: "china/day-6/night"
+            alt: "spot",
+            imageKey: "china/day-6/night",
+            caption: "lv spot"
           }
         ]
       },
@@ -333,7 +349,7 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "good morning",
+            alt: "ma",
             imageKey: "china/day-7/bae"
           },
           {
@@ -341,29 +357,31 @@ export const destinations = [
             imageKey: "china/day-7/popmart"
           },
           {
-            alt: "like a movie scene again",
+            alt: "scene",
             imageKey: "china/day-7/scene2",
-            featured: true
+            featured: true,
+            caption: "like a movie scene again"
           },
           {
-            alt: "what great place to explore",
+            alt: "xn",
             imageKey: "china/day-7/xn"
           },
           {
-            alt: "another scene again",
+            alt: "scene",
             imageKey: "china/day-7/scene"
           },
           {
-            alt: "us regretting not to come here earlier",
+            alt: "us",
             imageKey: "china/day-7/us"
           },
           {
-            alt: "westbund is cool",
+            alt: "westbund",
             imageKey: "china/day-7/random"
           },
           {
-            alt: "croissant b4 goin' to airport..",
-            imageKey: "china/day-7/bread"
+            alt: "bread",
+            imageKey: "china/day-7/bread",
+            caption: "croissant before goin' to airport.."
           }
         ]
       }
@@ -377,7 +395,6 @@ export const destinations = [
     date: "27.06.26 - 30.06.26",
     location: "Da Nang - Hoi An",
     cover: "danang/day-2/bridge",
-    flag: vn_flag,
     description: "Da Nang is our destination for a summer trip, it's quite rushing but really worth it.",
     days: [
       {
@@ -387,41 +404,44 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "on da plane",
+            alt: "plane",
             imageKey: "danang/day-1/random2"
           },
           {
-            alt: "great local restaurant",
+            alt: "restaurant",
             imageKey: "danang/day-1/random"
           },
           {
-            alt: "good food",
-            imageKey: "danang/day-1/dinner"
+            alt: "dinner",
+            imageKey: "danang/day-1/dinner",
+            caption: "hai san ba ro"
           },
           {
-            alt: "captured the moment",
+            alt: "ma",
             imageKey: "danang/day-1/bae"
           },
           {
-            alt: "bun cha ca",
-            imageKey: "danang/day-1/breakfast"
+            alt: "breakfast",
+            imageKey: "danang/day-1/breakfast",
+            caption: "bun cha ca"
           },
           {
-            alt: "1st ocean photo",
+            alt: "scene",
             imageKey: "danang/day-1/scene",
             featured: true
           },
           {
-            alt: "us @photo spot",
+            alt: "us",
             imageKey: "danang/day-1/us"
           },
           {
-            alt: "my family luv",
+            alt: "family",
             imageKey: "danang/day-1/family"
           },
           {
-            alt: "bun muc",
-            imageKey: "danang/day-1/lunch"
+            alt: "lunch",
+            imageKey: "danang/day-1/lunch",
+            caption: "bun muc"
           }
         ]
       },
@@ -433,36 +453,39 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "another photograph",
+            alt: "random photo",
             imageKey: "danang/day-2/random",
             featured: true
           },
           {
-            alt: "ocean vibee",
-            imageKey: "danang/day-2/bae"
+            alt: "ma",
+            imageKey: "danang/day-2/bae",
+            caption: "ocean vibee"
           },
           {
-            alt: "food on da sea",
-            imageKey: "danang/day-2/seafood"
+            alt: "seafood",
+            imageKey: "danang/day-2/seafood",
+            caption: "fresh food from the sea"
           },
           {
-            alt: "my family luv",
+            alt: "family",
             imageKey: "danang/day-2/family"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "danang/day-2/random2"
           },
           {
-            alt: "cau rong",
-            imageKey: "danang/day-2/bridge"
+            alt: "bridge",
+            imageKey: "danang/day-2/bridge",
+            caption: "cau rong"
           },
           {
-            alt: "checkinn",
+            alt: "us",
             imageKey: "danang/day-2/us"
           },
           {
-            alt: "lovely",
+            alt: "family",
             imageKey: "danang/day-2/love"
           }
         ]
@@ -475,32 +498,37 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "breakfast in market",
-            imageKey: "danang/day-3/breakfast"
+            alt: "breakfast",
+            imageKey: "danang/day-3/breakfast",
+            caption: "breakfast in market"
           },
           {
-            alt: "cong chua ba mu",
+            alt: "hoian",
             imageKey: "danang/day-3/hoian",
-            featured: true
+            featured: true,
+            caption: "cong chua ba mu"
           },
           {
-            alt: "chao ngheu co gio",
-            imageKey: "danang/day-3/chao"
+            alt: "chao",
+            imageKey: "danang/day-3/chao",
+            caption: "chao ngheu co gio"
           },
           {
             alt: "banh mi",
-            imageKey: "danang/day-3/banhmi"
+            imageKey: "danang/day-3/banhmi",
+            caption: "banh mi madam khanh"
           },
           {
-            alt: "checkinn",
-            imageKey: "danang/day-3/love"
+            alt: "family",
+            imageKey: "danang/day-3/love",
+            caption: "chua cau"
           },
           {
-            alt: "good vibee",
+            alt: "ma",
             imageKey: "danang/day-3/bae"
           },
           {
-            alt: "my family luv",
+            alt: "family",
             imageKey: "danang/day-3/family"
           },
           {
@@ -508,11 +536,12 @@ export const destinations = [
             imageKey: "danang/day-3/mot"
           },
           {
-            alt: "chill sunset",
-            imageKey: "danang/day-3/bae2"
+            alt: "ma",
+            imageKey: "danang/day-3/bae2",
+            caption: "hoi an"
           },
           {
-            alt: "what a photograph",
+            alt: "scene",
             imageKey: "danang/day-3/scene"
           }
         ]
@@ -525,7 +554,7 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "my an beach",
+            alt: "beach",
             imageKey: "danang/day-4/beach",
             featured: true
           },
@@ -534,19 +563,20 @@ export const destinations = [
             imageKey: "danang/day-4/scene"
           },
           {
-            alt: "beach vibe",
+            alt: "vibe",
             imageKey: "danang/day-4/vibe"
           },
           {
-            alt: "an com nha",
+            alt: "lunch",
             imageKey: "danang/day-4/lunch"
           },
           {
-            alt: "lil bro",
-            imageKey: "danang/day-4/lilbro"
+            alt: "family",
+            imageKey: "danang/day-4/lilbro",
+            caption: "lil bro"
           },
           {
-            alt: "bae @ocean",
+            alt: "ma",
             imageKey: "danang/day-4/ocean"
           },
           {
@@ -554,8 +584,9 @@ export const destinations = [
             imageKey: "danang/day-4/hoian"
           },
           {
-            alt: "cao lau mi quang meal",
-            imageKey: "danang/day-4/dinner"
+            alt: "dinner",
+            imageKey: "danang/day-4/dinner",
+            caption: "mi quang cao lau meal"
           }
         ]
       }
@@ -569,7 +600,6 @@ export const destinations = [
     date: "06.12.25 - 14.12.25",
     location: "Sapporo - Tokyo",
     cover: "japan2/day-5/random2",
-    flag: jp_flag,
     description: "This winter trip to Sapporo and Tokyo is definitely one of the best memories we ever had. We also found the best spicy miso soup in a random ramen shop.",
     days: [
       {
@@ -579,36 +609,39 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "train to city",
-            imageKey: "japan2/day-1/train"
+            alt: "train",
+            imageKey: "japan2/day-1/train",
+            caption: "train to city"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan2/day-1/random",
           },
           {
-            alt: "hi Sapporo Tower",
+            alt: "xn",
             imageKey: "japan2/day-1/xn"
           },
           {
-            alt: "hi Sapporo Tower",
+            alt: "ma",
             imageKey: "japan2/day-1/bae"
           },
           {
-            alt: "our very first ramen in Sapporo",
+            alt: "ramen",
             imageKey: "japan2/day-1/ramen"
           },
           {
-            alt: "it's just too cold",
-            imageKey: "japan2/day-1/shopping"
+            alt: "shopping",
+            imageKey: "japan2/day-1/shopping",
+            caption: "it's just too cold"
           },
           {
-            alt: "queue for curry rice",
+            alt: "queue",
             imageKey: "japan2/day-1/queue"
           },
           {
-            alt: "our dinner",
-            imageKey: "japan2/day-1/dinner"
+            alt: "dinner",
+            imageKey: "japan2/day-1/dinner",
+            caption: "curry rice"
           }
         ]
       },
@@ -620,28 +653,30 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "good morning",
+            alt: "xn",
             imageKey: "japan2/day-2/xn"
           },
           {
-            alt: "gachaa",
-            imageKey: "japan2/day-2/gacha"
+            alt: "ma",
+            imageKey: "japan2/day-2/gacha",
+            caption: "gacha"
           },
           {
-            alt: "what a delicious meal",
-            imageKey: "japan2/day-2/lunch"
+            alt: "lunch",
+            imageKey: "japan2/day-2/lunch",
+            caption: "fyi, xn loves meat"
           },
           {
-            alt: "xmas vibe",
+            alt: "xmas",
             imageKey: "japan2/day-2/xmas",
             featured: true
           },
           {
-            alt: "checkinn",
+            alt: "us",
             imageKey: "japan2/day-2/us"
           },
           {
-            alt: "captured the moment",
+            alt: "ma",
             imageKey: "japan2/day-2/bae"
           },
           {
@@ -649,17 +684,17 @@ export const destinations = [
             imageKey: "japan2/day-2/sushi"
           },
           {
-            alt: "checkinn",
+            alt: "us",
             imageKey: "japan2/day-2/us2"
           },
           {
-            alt: "get ready for da best miso ramen ever tasted",
+            alt: "queue",
             imageKey: "japan2/day-2/queue"
           },
           {
-            alt: "best miso ramen",
+            alt: "ramen",
             imageKey: "japan2/day-2/ramen",
-            caption: "the best spicy miso ramen"
+            caption: "best spicy miso ramen"
           }
         ]
       },
@@ -671,45 +706,48 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "a quick breakfast on train",
-            imageKey: "japan2/day-3/breakfast"
+            alt: "breakfast",
+            imageKey: "japan2/day-3/breakfast",
+            caption: "a quick breakfast on train"
           },
           {
-            alt: "chill",
+            alt: "xn",
             imageKey: "japan2/day-3/xn"
           },
           {
-            alt: "this snow vibe",
+            alt: "train",
             imageKey: "japan2/day-3/station",
-            featured: true
+            featured: true,
+            caption: "this snow vibe"
           },
           {
-            alt: "checkinn",
+            alt: "ma",
             imageKey: "japan2/day-3/bae"
           },
           {
-            alt: "vending machines",
+            alt: "vending",
             imageKey: "japan2/day-3/vending"
           },
           {
-            alt: "bus coated by snow",
+            alt: "bus",
             imageKey: "japan2/day-3/bus"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan2/day-3/night"
           },
           {
-            alt: "random shop for dinner",
+            alt: "dinner",
             imageKey: "japan2/day-3/dinner"
           },
           {
-            alt: "us again @tower",
+            alt: "us",
             imageKey: "japan2/day-3/us"
           },
           {
-            alt: "2 times in a row",
-            imageKey: "japan2/day-3/ramen"
+            alt: "ramen",
+            imageKey: "japan2/day-3/ramen",
+            caption: "2 times in a row"
           }
         ]
       },
@@ -725,15 +763,15 @@ export const destinations = [
             imageKey: "japan2/day-4/random"
           },
           {
-            alt: "seafood market",
+            alt: "market",
             imageKey: "japan2/day-4/crab"
           },
           {
-            alt: "what a hill",
+            alt: "hill",
             imageKey: "japan2/day-4/hill"
           },
           {
-            alt: "say hi in Otaru",
+            alt: "otaru",
             imageKey: "japan2/day-4/canal",
             featured: true
           },
@@ -742,7 +780,7 @@ export const destinations = [
             imageKey: "japan2/day-4/otaru"
           },
           {
-            alt: "another xmas vibe",
+            alt: "xmas",
             imageKey: "japan2/day-4/xmas"
           },
           {
@@ -750,15 +788,16 @@ export const destinations = [
             imageKey: "japan2/day-4/sapporo"
           },
           {
-            alt: "want some beer..",
-            imageKey: "japan2/day-4/beer"
+            alt: "beer",
+            imageKey: "japan2/day-4/beer",
+            caption: "want some beer?"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan2/day-4/bus"
           },
           {
-            alt: "checkinn again",
+            alt: "us",
             imageKey: "japan2/day-4/us"
           }
         ]
@@ -771,44 +810,49 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "just beautiful to look at",
-            imageKey: "japan2/day-5/random2"
+            alt: "random",
+            imageKey: "japan2/day-5/random2",
+            caption: "how beautiful"
           },
           {
-            alt: "a bit salty..",
-            imageKey: "japan2/day-5/breakfast"
+            alt: "breakfast",
+            imageKey: "japan2/day-5/breakfast",
+            caption: "a bit salty.."
           },
           {
             alt: "chill",
             imageKey: "japan2/day-5/mountain"
           },
           {
-            alt: "right on da street",
+            alt: "ma",
             imageKey: "japan2/day-5/bae2"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan2/day-5/random"
           },
           {
-            alt: "koibito park",
-            imageKey: "japan2/day-5/koibito"
+            alt: "koibito",
+            imageKey: "japan2/day-5/koibito",
+            caption: "koibito park"
           },
           {
-            alt: "it's lovely here",
+            alt: "ma",
             imageKey: "japan2/day-5/bae",
           },
           {
-            alt: "lunch before movin' to Tokyo",
-            imageKey: "japan2/day-5/lunch"
+            alt: "lunch",
+            imageKey: "japan2/day-5/lunch",
+            caption: "lunch before movin' to Tokyo"
           },
           {
-            alt: "tsukemen..",
+            alt: "ramen",
             imageKey: "japan2/day-5/ramen"
           },
           {
-            alt: "midnight food",
-            imageKey: "japan2/day-5/midnight"
+            alt: "midnight",
+            imageKey: "japan2/day-5/midnight",
+            caption: "midnight meal"
           }
         ]
       },
@@ -820,12 +864,13 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan2/day-6/random2"
           },
           {
-            alt: "saw this before",
-            imageKey: "japan2/day-6/tokyo"
+            alt: "tokyo",
+            imageKey: "japan2/day-6/tokyo",
+            caption: "tokyo sky tree"
           },
           {
             alt: "unagi",
@@ -836,28 +881,29 @@ export const destinations = [
             imageKey: "japan2/day-6/bae"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan2/day-6/random",
             featured: true
           },
           {
-            alt: "fitcheck",
+            alt: "us",
             imageKey: "japan2/day-6/us"
           },
           {
-            alt: "chill",
+            alt: "xn",
             imageKey: "japan2/day-6/xn"
           },
           {
-            alt: "good matcha here",
+            alt: "matcha",
             imageKey: "japan2/day-6/matcha"
           },
           {
-            alt: "xmas vibe in tokyo",
-            imageKey: "japan2/day-6/xmas"
+            alt: "xmas",
+            imageKey: "japan2/day-6/xmas",
+            caption: "xmas vibe in tokyo"
           },
           {
-            alt: "still tsukemen",
+            alt: "ramen",
             imageKey: "japan2/day-6/ramen"
           }
         ]
@@ -870,7 +916,7 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan2/day-7/random"
           },
           {
@@ -878,20 +924,21 @@ export const destinations = [
             imageKey: "japan2/day-7/breakfast"
           },
           {
-            alt: "what a scene",
+            alt: "scene",
             imageKey: "japan2/day-7/scene"
           },
           {
             alt: "cat",
-            imageKey: "japan2/day-7/cat"
+            imageKey: "japan2/day-7/cat",
+            caption: "cat temple"
           },
           {
-            alt: "vibe",
+            alt: "xn",
             imageKey: "japan2/day-7/xn",
             featured: true
           },
           {
-            alt: "right on da street",
+            alt: "ma",
             imageKey: "japan2/day-7/bae"
           },
           {
@@ -904,10 +951,11 @@ export const destinations = [
           },
           {
             alt: "imdonut",
-            imageKey: "japan2/day-7/imdonut"
+            imageKey: "japan2/day-7/imdonut",
+            caption: "imdonut"
           },
           {
-            alt: "our nomikai",
+            alt: "nomikai",
             imageKey: "japan2/day-7/dinner"
           }
         ]
@@ -920,11 +968,11 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "imdonut first",
+            alt: "imdonut",
             imageKey: "japan2/day-8/imdonut"
           },
           {
-            alt: "cool",
+            alt: "ma",
             imageKey: "japan2/day-8/bae"
           },
           {
@@ -933,28 +981,30 @@ export const destinations = [
             featured: true
           },
           {
-            alt: "this ramen is good",
+            alt: "ramen",
             imageKey: "japan2/day-8/ramen"
           },
           {
-            alt: "xmas vibe",
+            alt: "xmas",
             imageKey: "japan2/day-8/xmas"
           },
           {
-            alt: "checkinn",
+            alt: "us",
             imageKey: "japan2/day-8/us"
           },
           {
-            alt: "our snack",
+            alt: "snack",
             imageKey: "japan2/day-8/snack"
           },
           {
-            alt: "fish broth ramen",
-            imageKey: "japan2/day-8/dinner"
+            alt: "ramen",
+            imageKey: "japan2/day-8/dinner",
+            caption: "fish broth ramen"
           },
           {
-            alt: "meal before boarding",
-            imageKey: "japan2/day-8/meal"
+            alt: "meal",
+            imageKey: "japan2/day-8/meal",
+            caption: "meal before boarding"
           }
         ]
       }
@@ -968,7 +1018,6 @@ export const destinations = [
     date: "30.08.25 - 03.09.25",
     location: "Ubud - Seminyak - Canggu - Uluwatu",
     cover: "bali/day-3/scene",
-    flag: indo_flag,
     description: "Everything is so chill in Bali, especially we felt different vibes on one island. We had some funny concerns staying there, like how come gas stations are not many, where is the police station, a lot of bakso that made us stick to a viral melody :), etc.",
     days: [
       {
@@ -1168,7 +1217,6 @@ export const destinations = [
     date: "23.01.25 - 02.02.25",
     location: "Tokyo - Nagano - Kanazawa - Takayama - Shirakawago - Kyoto - Osaka",
     cover: "japan/day-1/tokyo_skytree",
-    flag: jp_flag,
     description: "Our first winter trip together and we just loved it. The very first time we been in Japan, felt that cold, touched snow, wore yukata, onsen, etc. ",
     days: [
       {
@@ -1178,30 +1226,34 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "welcome to Japan",
+            alt: "welcome",
             imageKey: "japan/day-1/welcome",
-            featured: true
+            featured: true,
+            caption: "welcome to Japan!"
           },
           {
-            alt: "bae @vending machine",
+            alt: "ma",
             imageKey: "japan/day-1/bae"
           },
           {
-            alt: "train from narita to city",
-            imageKey: "japan/day-1/train"
+            alt: "train",
+            imageKey: "japan/day-1/train",
+            caption: "train to city"
           },
           {
-            alt: "food - fall for ramen",
-            imageKey: "japan/day-1/food"
+            alt: "ramen",
+            imageKey: "japan/day-1/food",
+            caption: "first meal: ramen"
           },
           {
-            alt: "us facing tokyo sky tree",
-            imageKey: "japan/day-1/us",
+            alt: "us",
+            imageKey: "japan/day-1/us"
+          },
+          {
+            alt: "tokyo",
+            imageKey: "japan/day-1/tokyo_skytree",
+            caption: "tokyo sky tree",
             featured: true
-          },
-          {
-            alt: "tokyo sky tree",
-            imageKey: "japan/day-1/tokyo_skytree"
           }
         ]
       },
@@ -1213,30 +1265,34 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "morning matcha",
+            alt: "matcha",
             imageKey: "japan/day-2/matcha",
-            featured: true
+            caption: "morning matcha"
           },
           {
-            alt: "bae @ghibli store",
-            imageKey: "japan/day-2/bae"
+            alt: "ma",
+            imageKey: "japan/day-2/bae",
+            caption: "@ghibli store"
           },
           {
-            alt: "random girls in kimono",
+            alt: "random",
             imageKey: "japan/day-2/random",
             featured: true
           },
           {
-            alt: "sensō-ji temple",
-            imageKey: "japan/day-2/temple"
+            alt: "temple",
+            imageKey: "japan/day-2/temple",
+            caption: "sensō-ji temple"
           },
           {
-            alt: "food - gyukatsu",
-            imageKey: "japan/day-2/food"
+            alt: "food",
+            imageKey: "japan/day-2/food",
+            caption: "gyukatsu"
           },
           {
-            alt: "dinner - family mart",
-            imageKey: "japan/day-2/midnight_food"
+            alt: "dinner",
+            imageKey: "japan/day-2/midnight_food",
+            caption: "family mart"
           }
         ]
       },
@@ -1248,30 +1304,35 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "us wandering around",
+            alt: "us",
             imageKey: "japan/day-3/us"
           },
           {
-            alt: "donki store",
-            imageKey: "japan/day-3/donki"
+            alt: "donki",
+            imageKey: "japan/day-3/donki",
+            caption: "donki store"
           },
           {
-            alt: "xn @tokyo station",
+            alt: "xn",
             imageKey: "japan/day-3/xn",
-            featured: true
+            featured: true,
+            caption: "@tokyo station"
           },
           {
-            alt: "bae @tokyo station",
+            alt: "ma",
             imageKey: "japan/day-3/bae",
-            featured: true
+            featured: true,
+            caption: "@tokyo station"
           },
           {
-            alt: "sushi @shibuya",
-            imageKey: "japan/day-3/sushi"
+            alt: "sushi",
+            imageKey: "japan/day-3/sushi",
+            caption: "sushi @shibuya"
           },
           {
-            alt: "harrypotter @akasaka",
-            imageKey: "japan/day-3/harrypotter"
+            alt: "harrypotter",
+            imageKey: "japan/day-3/harrypotter",
+            caption: "harrypotter @akasaka"
           }
         ]
       },
@@ -1283,30 +1344,34 @@ export const destinations = [
         // description:"",
         images: [
           {
-            alt: "quick breakfast on train",
-            imageKey: "japan/day-4/breakfast"
+            alt: "breakfast",
+            imageKey: "japan/day-4/breakfast",
+            caption: "quick breakfast on train"
           },
           {
             alt: "us",
             imageKey: "japan/day-4/us"
           },
           {
-            alt: "first time touch snow ",
+            alt: "xn",
             imageKey: "japan/day-4/xn_snow",
             featured: true
           },
           {
-            alt: "first time touch snow ",
+            alt: "ma",
             imageKey: "japan/day-4/bae_snow",
-            featured: true
+            featured: true,
+            caption: "first time touch snow"
           },
           {
-            alt: "snow monkey park",
-            imageKey: "japan/day-4/monkey"
+            alt: "monkey",
+            imageKey: "japan/day-4/monkey",
+            caption: "snow monkey park"
           },
           {
-            alt: "in yukata",
-            imageKey: "japan/day-4/bae_yukata"
+            alt: "ma",
+            imageKey: "japan/day-4/bae_yukata",
+            caption: "in yukata"
           }
         ]
       },
@@ -1318,29 +1383,31 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "eating kaiseki meal",
-            imageKey: "japan/day-5/bae_breakfast"
+            alt: "breakfast",
+            imageKey: "japan/day-5/bae_breakfast",
+            caption: "kaiseki meal"
           },
           {
-            alt: "mountain landscape",
+            alt: "landscape",
             imageKey: "japan/day-5/landscape"
           },
           {
-            alt: "@kanazawa station",
+            alt: "ma",
             imageKey: "japan/day-5/bae_kanazawa",
-            featured: true
+            featured: true,
+            caption: "@kanazawa station"
           },
           {
-            alt: "matcha ramen??",
+            alt: "ramen",
             imageKey: "japan/day-5/matcha_ramen",
-            featured: true
+            caption: "matcha ramen?"
           },
           {
-            alt: "xn @kanazawa castle",
+            alt: "xn",
             imageKey: "japan/day-5/xn_castle"
           },
           {
-            alt: "soup @kanazawa station",
+            alt: "food",
             imageKey: "japan/day-5/food"
           }
         ]
@@ -1353,30 +1420,34 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "best pudding ",
-            imageKey: "japan/day-6/flan"
+            alt: "flan",
+            imageKey: "japan/day-6/flan",
+            caption: "best pudding"
           },
           {
-            alt: "do you want to build a snowman?",
-            imageKey: "japan/day-6/snowman"
+            alt: "snow",
+            imageKey: "japan/day-6/snowman",
+            caption: "do you want to build a snowman?"
           },
           {
-            alt: "shirakawago - UNESCO as a World Heritage Site",
+            alt: "shirakawago",
             imageKey: "japan/day-6/shirakawago",
-            featured: true
+            featured: true,
+            caption: "UNESCO as a World Heritage Site"
           },
           {
-            alt: "snow-girl",
+            alt: "ma",
             imageKey: "japan/day-6/bae",
             featured: true
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan/day-6/random"
           },
           {
-            alt: "sukiyaki hida beef",
-            imageKey: "japan/day-6/sukiyaki"
+            alt: "beef",
+            imageKey: "japan/day-6/sukiyaki",
+            caption: "sukiyaki hida beef"
           }
         ]
       },
@@ -1388,34 +1459,36 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "morning heavy snow",
+            alt: "snow",
             imageKey: "japan/day-7/heavysnow"
           },
           {
-            alt: "random curry rice store",
+            alt: "curryrice",
             imageKey: "japan/day-7/curryrice"
           },
           {
-            alt: "@nanzen-ji temple",
+            alt: "xn",
             imageKey: "japan/day-7/xn",
-            featured: true
+            caption: "@nanzen-ji temple"
           },
           {
-            alt: "sunset @kamo river noryo-yuka area",
+            alt: "sunset",
             imageKey: "japan/day-7/sunset",
-            featured: true
+            featured: true,
+            caption: "@kamo river noryo-yuka area"
           },
           {
-            alt: "bae",
+            alt: "ma",
             imageKey: "japan/day-7/bae"
           },
           {
-            alt: "beef on beef",
+            alt: "beef",
             imageKey: "japan/day-7/beef"
           },
           {
-            alt: "insanely delicious cold ramen",
-            imageKey: "japan/day-7/ramen"
+            alt: "ramen",
+            imageKey: "japan/day-7/ramen",
+            caption: "omg this tsukemen"
           }
         ]
       },
@@ -1427,34 +1500,36 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "tourist attraction - bamboo grove",
-            imageKey: "japan/day-8/bamboo"
+            alt: "bamboo",
+            imageKey: "japan/day-8/bamboo",
+            caption: "bamboo grove"
           },
           {
-            alt: "bae @bamboo forest",
+            alt: "ma",
             imageKey: "japan/day-8/bae"
           },
           {
-            alt: "random photograph",
+            alt: "random photo",
             imageKey: "japan/day-8/random",
             featured: true
           },
           {
-            alt: "set lunch @Yasaka Pagoda",
-            imageKey: "japan/day-8/lunchset",
-            featured: true
+            alt: "lunch",
+            imageKey: "japan/day-8/lunchset"
           },
           {
-            alt: "Yasaka Pagoda",
-            imageKey: "japan/day-8/pagoda"
+            alt: "pagoda",
+            imageKey: "japan/day-8/pagoda",
+            caption: "Yasaka Pagoda"
           },
           {
-            alt: "matcha on matcha",
+            alt: "matcha",
             imageKey: "japan/day-8/matcha"
           },
           {
             alt: "okonomiyaki",
-            imageKey: "japan/day-8/okonomiyaki"
+            imageKey: "japan/day-8/okonomiyaki",
+            caption: "okonomiyaki"
           }
         ]
       },
@@ -1466,17 +1541,16 @@ export const destinations = [
         // description: "",
         images: [
           {
-            alt: "fitcheck",
+            alt: "xn",
             imageKey: "japan/day-9/xn"
           },
           {
-            alt: "takoyaki at market",
+            alt: "takoyaki",
             imageKey: "japan/day-9/takoyaki"
           },
           {
-            alt: "still matcha",
-            imageKey: "japan/day-9/matcha",
-            featured: true
+            alt: "matcha",
+            imageKey: "japan/day-9/matcha"
           },
           {
             alt: "unagii",
@@ -1488,12 +1562,13 @@ export const destinations = [
             imageKey: "japan/day-9/osaka"
           },
           {
-            alt: "famous animated graphic wall",
+            alt: "graphic",
             imageKey: "japan/day-9/graphic"
           },
           {
-            alt: "bae @glico panel",
-            imageKey: "japan/day-9/baeglico"
+            alt: "ma",
+            imageKey: "japan/day-9/baeglico",
+            caption: "@glico panel"
           }
         ]
       },
@@ -1505,30 +1580,33 @@ export const destinations = [
         // description: "",
         images: [
           {
+            alt: "castle",
+            imageKey: "japan/day-10/osaka_castle",
+            featured: true,
+            caption: "@osaka castle"
+          },
+          {
             alt: "namba station",
             imageKey: "japan/day-10/namba_station"
           },
           {
-            alt: "@osaka castle",
-            imageKey: "japan/day-10/osaka_castle"
+            alt: "random",
+            imageKey: "japan/day-10/random"
           },
           {
-            alt: "random manhole cover",
-            imageKey: "japan/day-10/random",
-            featured: true
-          },
-          {
-            alt: "tsutenkaku tower",
+            alt: "shinsekai",
             imageKey: "japan/day-10/shinsekai",
-            featured: true
+            featured: true,
+            caption: "tsutenkaku tower"
           },
           {
-            alt: "ramen again",
+            alt: "ramen",
             imageKey: "japan/day-10/ramen"
           },
           {
-            alt: "dearbros omelette rice",
-            imageKey: "japan/day-10/omelette"
+            alt: "dearbros",
+            imageKey: "japan/day-10/omelette",
+            caption: "omelette rice"
           }
         ]
       }
@@ -1542,7 +1620,6 @@ export const destinations = [
     date: "26.04.24 - 30.04.24",
     location: "Victoria Habour - Avenue of Stars - Yick Fat Building - Disneyland - 1881 Heritage",
     cover: "hongkong/day-2/dingding",
-    flag: hk_flag,
     // description: "",
     days: [
       {
@@ -1770,7 +1847,6 @@ export const destinations = [
     date: "02.12.23 - 05.12.23",
     location: "Wat Paknam Temple - Talat Noi - Icon Siam - Bangkok Grand Palace",
     cover: "thailand/day-3/random",
-    flag: thai_flag,
     // description: "",
     days: [
       {
