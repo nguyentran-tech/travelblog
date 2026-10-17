@@ -21,7 +21,7 @@ function WelcomeScreen({ onComplete }) {
 
   const messages = [
     'Tap the panda to begin. ✦',
-    'Oh, are you ready to go with us?',
+    'Oh bae, are you sure to continue?',
     "Let's explore now. ✦"
   ]
 
@@ -99,17 +99,17 @@ function WelcomeScreen({ onComplete }) {
         {/* Heading */}
         <div className="mb-8">
           <p className="mb-3 text-xs uppercase tracking-[0.3em] text-[#C89A68]">
-            XN & MA
+            ✦ Happy 4th Anniversary ❤️
           </p>
 
-          <h1 className="text-3xl font-medium tracking-tight text-[#F4EEE7] sm:text-4xl">
-            Welcome To            
+          <h1 className="text-2xl font-medium tracking-tight text-[#F4EEE7] sm:text-3xl">
+            XN & MA
             <br />
-            Our Travel Journal
+            {/* Our Travel Journal */}
           </h1>
 
-          <p className="mx-auto mt-4 max-w-xs text-sm leading-6 text-[#F4EEE7]/65">
-            This is where we share many beautiful memorable moments together.
+          <p className="mx-auto mt-6 max-w-xs text-sm leading-6 text-[#F4EEE7]/65">
+            Baby ơi, are you ready to explore our beautiful memorable moments together?
           </p>
         </div>
 
